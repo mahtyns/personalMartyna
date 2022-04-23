@@ -3,7 +3,7 @@
 This is the code for my personal site created with React. The site contains 'About me' Page, Portfolio page with projects and contact information. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Deployed on Netlify.
+Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-personalsite.netlify.app)
 
 ## Available Scripts
 

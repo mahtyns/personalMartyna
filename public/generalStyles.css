@@ -1,0 +1,23 @@
+:root {
+    --main-color: #fff7f7;
+    --background: #010809;
+    --peach:#f87459;
+    --purple-dark: #672c95;
+    --purple-light: #cfaeea;
+    --blue-light: #1275da;
+    --yellow: #f2e658;
+    --green-light: #a9dec5;
+    --cyan: #2afee8;
+    --main-font: 'Assistant', sans-serif;
+    --font-special: 'Prompt', sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--main-font);
+}

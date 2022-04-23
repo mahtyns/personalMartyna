@@ -1,0 +1,30 @@
+:root {
+    --main-color: #fff7f7;
+    --background: #010809;
+    --peach:248, 115, 89;
+    --purple-dark: #672c95;
+    --purple-light: #cfaeea;
+    --blue-light: 18, 117, 218;
+    --yellow: 242, 230, 88;
+    --green-light: #a9dec5;
+    --main-font: 'Assistant', sans-serif;
+    --font-special: 'Prompt', sans-serif;
+}
+
+
+.landingTitle {
+    font-family: var(--font-special);
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-size: 6rem;
+    font-weight: 500;
+    text-shadow: 
+    0.05em 0.025em 0 rgba(var(--peach), 0.5),
+    -0.05em -0.025em 0 rgba(var(--blue-light), 0.5),
+    0.025em -0.05em 0 rgba(var(--yellow), 0.5);
+}
+
+@keyframes glitch {
+    
+}
