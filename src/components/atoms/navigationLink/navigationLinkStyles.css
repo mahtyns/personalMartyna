@@ -6,9 +6,17 @@
     --purple-light: #cfaeea;
     --blue-light: #1275da;
     --yellow: #f2e658;
-    --green-light: #a9dec5
+    --green-light: #a9dec5;
+    --cyan: #2afee8;
+    --main-font: 'Assistant', sans-serif;
+    --font-special: 'Prompt', sans-serif;
 }
 
 .navLink {
-    color: var(--green-light)
+    color: var(--green-light);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: var(--main-font);
+    font-weight: 700;
+    letter-spacing: 1px;
 }

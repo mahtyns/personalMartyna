@@ -1,11 +1,14 @@
 import React from "react";
+import Alert from "./components/atoms/alert/Alert";
 import NavigationLink from "./components/atoms/navigationLink/NavigationLink";
 import LandingBackground from "./components/landing-elements/landing-background/LandingBackground";
+import Navbar from "./components/organism/navbar/Navbar";
 
 function App() {
   return (
     <div>
-      <NavigationLink navigationLink={`Hi! At the moment I'm Work In Progress Page! Come here soon! :)`}/>
+      <Alert />
+      <Navbar />
       <LandingBackground />
     </div>
   );
