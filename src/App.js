@@ -1,14 +1,14 @@
 import React from "react";
 import Alert from "./components/atoms/alert/Alert";
-import LandingBackground from "./components/landing-elements/landing-background/LandingBackground";
-import Navbar from "./components/organism/navbar/Navbar";
+import Footer from "./components/organism/footer/Footer";
+import Routing from "./Routing";
 
 function App() {
   return (
     <div>
       <Alert />
-      <Navbar />
-      <LandingBackground />
+      <Routing />
+      <Footer />
     </div>
   );
 }

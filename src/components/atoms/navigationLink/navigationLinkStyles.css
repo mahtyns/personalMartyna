@@ -19,4 +19,17 @@
     font-family: var(--main-font);
     font-weight: 700;
     letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.navLink:link {
+    text-decoration: none;
+}
+
+.navLink:visited {
+    text-decoration: none;
+}
+
+.navLink:hover {
+    color: var(--cyan)
 }
