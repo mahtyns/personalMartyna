@@ -1,6 +1,5 @@
 import React from "react";
 import Alert from "./components/atoms/alert/Alert";
-import NavigationLink from "./components/atoms/navigationLink/NavigationLink";
 import LandingBackground from "./components/landing-elements/landing-background/LandingBackground";
 import Navbar from "./components/organism/navbar/Navbar";
 
