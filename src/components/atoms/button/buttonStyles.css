@@ -1,0 +1,6 @@
+.mainButton {
+    background-color: rgb(172, 35, 35);
+    color: black;
+    padding: 20px 50px;
+    box-shadow: 2px 2px 2px green;
+}

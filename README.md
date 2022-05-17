@@ -5,6 +5,17 @@ This is the code for my personal site created with React. The site contains 'Abo
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-personalsite.netlify.app)
 
+## Development Process:
+
+### Done
+ - Set up the page
+ - Netlify deployment
+### WIP (Working currently)
+ - Main Page
+### To-Do's
+ - Project Page
+ - About me page
+
 ## Available Scripts
 
 In the project directory, you can run:

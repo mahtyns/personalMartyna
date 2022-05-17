@@ -1,0 +1,20 @@
+.imageSepContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageSepWrapper {
+padding: 2em;
+width: 90%;
+
+}
+
+img {
+    width: inherit;
+    height: auto;
+    object-fit: cover;
+
+}

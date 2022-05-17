@@ -4,7 +4,7 @@ const Button = ({variant, content}) => {
 
   return (
     <>
-    <button className=''>{content}</button>
+    <button className={variant}>{content}</button>
     </>
   ) 
 }

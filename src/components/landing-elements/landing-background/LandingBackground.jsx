@@ -5,9 +5,11 @@ import './landingBackgroundStyles.css'
 
 const LandingBackground = () => {
   return (
+    <>
     <div className='landingContainer'>
     <LandingTitle />
     </div>
+    </>
   )
 }
 
