@@ -5,7 +5,8 @@ import './buttonStyles.css'
 const Button = ({variant, content}) => {
 
   const classesButton = classNames('buttonGeneral', {
-    'light': variant === 'light'
+    'light': variant === 'light',
+    'dark': variant === 'dark',
   })
 
   return (

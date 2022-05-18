@@ -8,7 +8,7 @@ function App() {
     <div>
       <Alert />
       <Routing />
-      <Footer />
+      <Footer content={'Coded by Martyna | 2022'}/>
     </div>
   );
 }

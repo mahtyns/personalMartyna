@@ -3,5 +3,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
+}
+
+.callToAction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

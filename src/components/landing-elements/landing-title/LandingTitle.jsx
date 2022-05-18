@@ -1,5 +1,5 @@
 import React from 'react';
-import './landingTitleStyles.css'
+import './landingTitleStyles.css';
 
 const LandingTitle = () => {
   return (

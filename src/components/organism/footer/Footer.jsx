@@ -1,10 +1,12 @@
 import React from 'react'
 import './footerStyles.css'
 
-const Footer = () => {
+const Footer = ({content}) => {
   return (
     <>
-          <p className='alertBar'>Coded by Martyna</p>
+      <div className='footerContainerMain'>
+          <p >{content}</p>
+      </div>
     </>
   )
 }

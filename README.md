@@ -8,10 +8,10 @@ Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-
 ## Development Process:
 
 ### Done
- - Set up the page
- - Netlify deployment
+ - Set up the page ✅
+ - Netlify deployment ✅
 ### WIP (Working currently)
- - Main Page
+ - Main Page 
 ### To-Do's
  - Project Page
  - About me page
