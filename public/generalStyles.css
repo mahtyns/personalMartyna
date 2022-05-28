@@ -8,6 +8,8 @@
     --yellow: #f2e658;
     --green-light: #a9dec5;
     --cyan: #2afee8;
+    --grey-light: #c9c9c9;
+    --grey-dark: #292929;
     --main-font: 'Assistant', sans-serif;
     --font-special: 'Prompt', sans-serif;
 }
