@@ -1,4 +1,5 @@
 import React from 'react'
+import './textStyles.css'
 
 const HeaderMain = ( {content}) => {
   return (
