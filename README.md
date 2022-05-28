@@ -12,9 +12,14 @@ Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-
  - Netlify deployment ✅
 ### WIP (Working currently)
  - Main Page 
-### To-Do's
  - Project Page
- - About me page
+### To-Do's
+  - About me page
+
+## Dependencies:
+ - React Router - navigating between pages - [More info]("https://reactrouter.com")
+ - classnames - manage CSS classes - [More info]("https://www.npmjs.com/package/classnames")
+
 
 ## Available Scripts
 

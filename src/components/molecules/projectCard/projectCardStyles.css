@@ -1,0 +1,46 @@
+:root {
+    --main-color: #fff7f7;
+    --background: #010809;
+    --peach:#f87459;
+    --purple-dark: #672c95;
+    --purple-light: #cfaeea;
+    --blue-light: #1275da;
+    --yellow: #f2e658;
+    --green-light: #a9dec5;
+    --cyan: #2afee8;
+    --grey-light: #c9c9c9;
+    --grey-dark: #292929;
+    --main-font: 'Assistant', sans-serif;
+    --font-special: 'Prompt', sans-serif;
+}
+
+.projectCardContainer {
+    width: 10rem;
+    height: 12rem;
+    cursor: pointer;
+    filter: opacity(.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectCardContainer.programming {
+    background-color: var(--purple-light);
+}
+
+.projectCardContainer.designCode {
+    background-color: var(--green-light);
+}
+
+.projectCardContainer.designUI {
+    background-color: var(--grey-light);
+}
+
+.projectInfoContainer {
+    width: 75%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

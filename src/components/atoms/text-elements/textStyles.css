@@ -47,3 +47,22 @@
         letter-spacing: 2px;
 
 }
+
+
+.symbolContent {
+    font-size: 3rem;
+    font-family: var(--font-special);
+    letter-spacing: 2px;
+}
+
+.projectNameText {
+    font-size: 1.35rem;
+}
+
+.projectYearText {
+    font-size: .9rem;
+}
+
+.descriptionContainer.m {
+    font-size: .9rem;
+}

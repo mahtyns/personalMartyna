@@ -1,12 +1,19 @@
+import classNames from 'classnames'
 import React from 'react'
 import './textStyles.css'
 
-const Descriptions = ({content}) => {
+const Descriptions = ({variant, content}) => {
+
+  const descriptionVariants = classNames('descriptionContainer', {
+    'xs': variant === "xs",
+    'x': variant === "x",
+    'm': variant === "m",
+    'l': variant === "l"
+  })
+
   return (
-    <div className='descriptionContainer'>
-        <div className='descriptionText'>
+    <div className={descriptionVariants}>
             {content}
-        </div>
     </div>
   )
 }
