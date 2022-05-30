@@ -1,6 +1,5 @@
 import React from 'react'
 import PageTitle from '../../molecules/header-subheader/PageTitle'
-import ProjectCard from '../../molecules/projectCard/ProjectCard'
 import './projectPageStyles.css'
 
 const ProjectPageMain = () => {

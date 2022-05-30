@@ -1,0 +1,14 @@
+.iconsContainer {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin: .5rem 0;
+}
+
+.iconSingleItem img {
+    max-width: 1.5rem;
+    height: auto;
+    margin: 0 1rem;
+    filter: invert(.6);
+}
+
