@@ -66,3 +66,12 @@
 .descriptionContainer.m {
     font-size: .9rem;
 }
+
+.sectionHeader {
+    font-style: var(--font-special);
+    color: var(--main-color);
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
