@@ -1,11 +1,19 @@
 import React from 'react'
+import classNames from 'classnames'
 
-const TitleMain = ({content}) => {
+
+const TitleMain = ({variant, content}) => {
+
+  const titleClasses = classNames('titleContainer', {
+    'xs': variant === "xs",
+    's': variant === "s",
+    'm': variant === "m",
+    'l': variant === "l"
+  })
+
   return (
-    <div className='titleContainer'>
-        <div className='titleText'>
+    <div className={titleClasses}>
             {content}
-        </div>
     </div>
   )
 }

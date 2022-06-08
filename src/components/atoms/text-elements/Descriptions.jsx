@@ -6,7 +6,7 @@ const Descriptions = ({variant, content}) => {
 
   const descriptionVariants = classNames('descriptionContainer', {
     'xs': variant === "xs",
-    'x': variant === "x",
+    's': variant === "s",
     'm': variant === "m",
     'l': variant === "l"
   })

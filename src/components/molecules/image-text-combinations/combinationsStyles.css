@@ -1,15 +1,20 @@
-.landingContainer {
+.imgTextCombinationContainer {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 85vh;
 }
 
-.callToAction {
+.imgTextWrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 70%;
 }
+
+.textContents {
+    max-width: 50%;
+}
+

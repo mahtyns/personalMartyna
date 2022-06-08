@@ -64,8 +64,15 @@
 }
 
 .descriptionContainer.m {
-    font-size: .9rem;
+    font-size: 1.2rem;
 }
+
+.descriptionContainer.l {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+
+}
+
 
 .sectionHeader {
     font-style: var(--font-special);
@@ -74,4 +81,28 @@
     font-weight: 200;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.titleContainer {
+    padding: 1rem 2rem;
+    font-style: var(--font-special);
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+
+.descriptionContainer {
+    padding: 1rem 2rem;
+    font-style: var(--main-font);
+    text-transform: uppercase;
+    font-weight: 200;
+    color: var(--main-color);
+}
+
+.titleContainer.l {
+    font-size: 1.9rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+
+
 }

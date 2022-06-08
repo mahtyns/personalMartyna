@@ -27,6 +27,7 @@
     0.025em -0.05em 0 rgba(var(--yellow), 0.5);
     animation: glitch 1500ms infinite;
     -webkit-animation: glitch 1500ms infinite;
+    -moz-animation: glitch 1500ms infinite;
 }
 
 .landingTitle span {
