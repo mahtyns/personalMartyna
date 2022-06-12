@@ -1,6 +1,6 @@
 .projectTableContainer {
     width: 100%;
-    margin: 2rem;
+    margin: 6rem 0;
 }
 
 .projectTableWrapper {
@@ -17,7 +17,4 @@
     grid-gap: .9rem;
 }
 
-.projectTableGrid:nth-child(4) {
-    grid-column: 1;
-    grid-row: 2;
-} 
+

@@ -15,6 +15,7 @@ Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-
  - Project Page
 ### To-Do's
   - About me page
+  - Contact page
 
 ## Dependencies:
  - React Router - navigating between pages - [More info]("https://reactrouter.com")

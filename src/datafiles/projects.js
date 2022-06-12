@@ -37,4 +37,14 @@ export const projectsAbout = [{
     project_stack: ['Javascript'],
     project_category: 'Programming',
     project_status: 'WIP'
+},
+{
+    project_name: 'Sarai Web Redesign',
+    project_symbol: 'Sr',
+    project_year: 2021,
+    project_description: '',
+    project_type: 'designUI',
+    project_stack: ['Figma', 'Photoshop', 'Illustrator'],
+    project_category: 'Design',
+    project_status: 'Finished'
 }]
