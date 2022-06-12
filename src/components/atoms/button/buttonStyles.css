@@ -27,5 +27,17 @@
 
 .buttonGeneral.dark {
     background-color: var(--grey-dark);
-    color: var(--main-color)
+    color: var(--main-color);
+}
+
+.buttonGeneral.dark:visited {
+    color: var(--main-color);
+}
+
+.buttonGeneral.dark:active {
+    color: var(--main-color);
+}
+
+a {
+    color: var(--main-color);
 }
