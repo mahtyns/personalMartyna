@@ -11,7 +11,7 @@ const MainPageSection = ({sectionTitle, content, buttonVariant, buttonContent}) 
             <div className='sectionContent'>
             {content}
             </div>
-            <Button variant={buttonVariant} content={buttonContent} />
+        {buttonContent ? <Button variant={buttonVariant} content={buttonContent} /> : null}
         </div>
     </div>
   )

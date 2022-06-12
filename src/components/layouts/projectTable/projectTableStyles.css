@@ -1,0 +1,23 @@
+.projectTableContainer {
+    width: 100%;
+    margin: 2rem;
+}
+
+.projectTableWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTableGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: .9rem;
+}
+
+.projectTableGrid:nth-child(4) {
+    grid-column: 1;
+    grid-row: 2;
+} 
