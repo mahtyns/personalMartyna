@@ -1,12 +1,14 @@
 import React from 'react'
 import PageTitle from '../../molecules/header-subheader/PageTitle'
-import './projectPageStyles.css'
+import './projectPageStyles.css';
+import ProjectTable from '../../layouts/projectTable/ProjectTable';
+import { projectsAbout } from '../../../datafiles/projects';
 
 const ProjectPageMain = () => {
   return (
     <div className='projectPageContainer'>
         <PageTitle headerContent={"My Experiments"} subheaderContent={"Discover my projects"} />
-        {/* <ProjectCard variant={"designUI"} projectYear={"2020"} projectSymbol={"Ms"} projectName={"MyShop"} projectCategory={"Ecommerce App"}/> */}
+        <ProjectTable projects={projectsAbout} />
     </div>
   )
 }
