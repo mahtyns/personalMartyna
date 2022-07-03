@@ -13,10 +13,11 @@
 }
 
 .stackBubble {
-    padding: .3rem 1.1rem;
+    padding: .4rem 1.2rem;
     background-color: var(--purple-dark);
     border: none;
     border-radius: 1rem;
     color: var(--main-color);
     font-weight: 300;
+    margin: 0 .2rem
 }

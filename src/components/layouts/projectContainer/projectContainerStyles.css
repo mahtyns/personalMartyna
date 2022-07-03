@@ -1,0 +1,48 @@
+:root {
+    --main-color: #fff7f7;
+    --background: #010809;
+    --peach:#f87459;
+    --purple-dark: #672c95;
+    --purple-light: #cfaeea;
+    --blue-light: #1275da;
+    --yellow: #f2e658;
+    --green-light: #a9dec5;
+    --cyan: #2afee8;
+    --grey-light: #c9c9c9;
+    --grey-dark: #292929;
+    --main-font: 'Assistant', sans-serif;
+    --font-special: 'Prompt', sans-serif;
+}
+
+
+.projectPanelContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectPanelWrapper {
+    width: 90%;
+    background-color: var(--grey-dark);
+    display: flex;
+    flex-direction: row;
+    height: 45rem;
+    border-radius: 1rem;
+}
+
+.projectImage {
+    width: 50%;
+    border-radius: inherit;
+}
+
+.projectDescription {
+    width: 50%;
+    padding: 3rem 4rem;
+}
+
+.projectImage img {
+    width: 100%;
+    max-height: 45rem;
+    object-fit: cover;
+}
