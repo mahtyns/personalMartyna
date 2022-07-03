@@ -38,7 +38,8 @@
 
 .projectDescription {
     width: 50%;
-    padding: 3rem 4rem;
+    padding: 4rem 4rem;
+    color: var(--grey-light);
 }
 
 .projectImage img {

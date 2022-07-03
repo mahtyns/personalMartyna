@@ -78,6 +78,8 @@
 
 .projectYearText {
     font-size: 1rem;
+    padding: 0 2rem;
+
 }
 
 .descriptionContainer.m {
@@ -130,4 +132,11 @@
     letter-spacing: 3px;
     font-weight: 400;
 
+}
+
+.linkContainer {
+    color: var(--cyan);
+    font-size: 1.2rem;
+    padding: .5rem 2rem;
+    letter-spacing: 2px;
 }

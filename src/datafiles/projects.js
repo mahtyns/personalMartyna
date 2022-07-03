@@ -16,7 +16,8 @@ export const projectsAbout = [{
     project_type: 'designUI',
     project_stack: ['Figma', 'Photoshop', 'Illustrator'],
     project_category: 'Design',
-    project_status: 'Finished'
+    project_status: 'Finished',
+    project_link: 'https://www.behance.net/gallery/122593259/Pam-App-Challenge'
 },
 {
     project_name: 'WineLovers Store',
