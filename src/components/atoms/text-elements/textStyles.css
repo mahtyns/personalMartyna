@@ -56,7 +56,23 @@
 }
 
 .projectNameText {
-    font-size: 1.35rem;
+    font-style: var(--font-special);
+}
+
+.projectNameText.xs {
+    font-size: 1.2rem;
+}
+
+.projectNameText.s {
+    font-size: 1.4rem;
+}
+
+.projectNameText.m {
+    font-size: 1.85rem;
+}
+
+.projectNameText.l {
+    font-size: 2rem;
 }
 
 
@@ -71,6 +87,7 @@
 .descriptionContainer.l {
     font-size: 1.4rem;
     letter-spacing: 2px;
+    line-height: 2.5rem;
 
 }
 
@@ -98,6 +115,14 @@
     text-transform: uppercase;
     font-weight: 200;
     color: var(--main-color);
+}
+
+.descriptionContainer.uppercase {
+    text-transform: uppercase;
+}
+
+.descriptionContainer.none {
+    text-transform: none;
 }
 
 .titleContainer.l {

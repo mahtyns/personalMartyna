@@ -12,7 +12,7 @@ export const projectsAbout = [{
     project_name: 'Pam App Challenge',
     project_symbol: 'Pa',
     project_year: 2021,
-    project_description: '',
+    project_description: 'Presented for Reply Design Challenge 2021, in collaboration with my friend, Edyta Przybysz. The objective was to propose UX improvements for the famous Fitness App run by Pam. Our idea was to create a bigger sense of community, increase the engagement and keep all the fitness information the user might need in one place. We have added some new functionalities and shifted the focus to the app user.',
     project_type: 'designUI',
     project_stack: ['Figma', 'Photoshop', 'Illustrator'],
     project_category: 'Design',

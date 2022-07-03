@@ -7,9 +7,10 @@ const ProjectDescription = ({projectName, projectDescr, projectYear}) => {
   return (
     <div className="projectDescriptionContainer">
         <div className="projectDescrWrapper">
-            <TitleMain content={projectName}/>
-            <Descriptions content={projectDescr} variant={'l'}/>
-            <ProjectYear content={projectYear}/>
+            <ProjectYear content={projectYear} />
+            <TitleMain content={projectName} variant={'l'}/>
+            <Descriptions content={projectDescr} variant={'l'} textransform={'none'}/>
+            
         </div>
     </div>
   )
