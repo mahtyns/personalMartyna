@@ -1,8 +1,17 @@
 import React from 'react';
 import './projectTableStyles.css';
 import ProjectCard from '../../molecules/projectCard/ProjectCard';
+import { useState } from 'react';
 
-const ProjectTable = ({projects}) => {
+const ProjectTable = ({ projects }) => {
+  const [projectPresented, setProjectPresented] = useState({})
+
+  const changePanelPresentation = ({ panelChange }) => {
+    setProjectPresented(panelChange)
+    console.log(projectPresented)
+  }
+
+
   return (
     <div className='projectTableContainer'>
         <div className="projectTableWrapper">
@@ -14,6 +23,8 @@ const ProjectTable = ({projects}) => {
                     projectSymbol={project.project_symbol}
                     projectYear={project.project_year}
                     projectCategory={project.project_category}
+                    project={project}
+                    changePanelPresentation={changePanelPresentation}
                      /> )}
             </div>
         </div>

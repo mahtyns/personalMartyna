@@ -6,7 +6,7 @@ import './projectContainerStyles.css';
 //test
 import { projectsAbout } from '../../../datafiles/projects'
 
-const ProjectContainer = () => {
+const ProjectContainer = ({projects}) => {
   return (
     <div className="projectPanelContainer">
       <div className="projectPanelWrapper">
