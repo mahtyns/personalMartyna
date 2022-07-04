@@ -9,18 +9,17 @@ import { useState } from 'react';
 const ProjectPageMain = () => {
 
   // const [panelOpen, setPanelOpen] = useState(false)
-  const [projectPresented, setProjectPresented] = useState([])
+  const [projectPresented, setProjectPresented] = useState({})
 
-  const changePanelPresentation = ({panelChange}) => {
-    setProjectPresented(panelChange)
-    console.log(projectPresented)
+  const changePanelPresentation = (addedProject) => {
+    setProjectPresented({ addedProject })
   }
   
   return (
     <div className='projectPageContainer'>
         <PageTitle headerContent={"My Experiments"} subheaderContent={"Discover my projects"} />
-      <ProjectTable projects={projectsAbout} />
-      <ProjectContainer projects={projectsAbout} />
+      <ProjectTable projects={projectsAbout} changePanelPresentation={changePanelPresentation} />
+      <ProjectContainer projectPresented={projectPresented} />
     </div>
   )
 }

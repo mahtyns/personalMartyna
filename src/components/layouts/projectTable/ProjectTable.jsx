@@ -3,12 +3,8 @@ import './projectTableStyles.css';
 import ProjectCard from '../../molecules/projectCard/ProjectCard';
 import { useState } from 'react';
 
-const ProjectTable = ({ projects }) => {
-  const [projectPresented, setProjectPresented] = useState({})
-
-  const changePanelPresentation = ({ project }) => {
-    console.log(project)
-  }
+const ProjectTable = ({ projects, changePanelPresentation }) => {
+  
 
 
   return (

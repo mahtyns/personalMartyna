@@ -4,14 +4,14 @@ import Links from '../../atoms/text-elements/Links'
 import ProjectYear from '../../atoms/text-elements/ProjectYear'
 import TitleMain from '../../atoms/text-elements/TitleMain'
 
-const ProjectDescription = ({projectName, projectDescr, projectYear, projectLinkSource, projectLinkName}) => {
+const ProjectDescription = ({project, projectLinkName}) => {
   return (
     <div className="projectDescriptionContainer">
         <div className="projectDescrWrapper">
-            <ProjectYear content={projectYear} />
-            <TitleMain content={projectName} variant={'l'}/>
-            <Descriptions content={projectDescr} variant={'l'} textransform={'none'}/>
-            <Links content={'Find more here: '} source={projectLinkSource} linkName={projectLinkName} />
+            <ProjectYear content={project.project_year} />
+        <TitleMain content={project.project_name} variant={'l'}/>
+        <Descriptions content={project.project_description} variant={'l'} textransform={'none'}/>
+        <Links content={'Find more here: '} source={project.project_link} linkName={projectLinkName} />
         </div>
     </div>
   )

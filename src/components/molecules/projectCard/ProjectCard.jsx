@@ -16,8 +16,6 @@ const ProjectCard = ({ variant, project, changePanelPresentation }) => {
       'designUI': variant === 'designUI',
     }
   )
-  
-  
 
   return (
     <div 
