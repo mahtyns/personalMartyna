@@ -6,9 +6,8 @@ import { useState } from 'react';
 const ProjectTable = ({ projects }) => {
   const [projectPresented, setProjectPresented] = useState({})
 
-  const changePanelPresentation = ({ panelChange }) => {
-    setProjectPresented(panelChange)
-    console.log(projectPresented)
+  const changePanelPresentation = ({ project }) => {
+    console.log(project)
   }
 
 
@@ -19,10 +18,6 @@ const ProjectTable = ({ projects }) => {
                 {projects.map((project) => <ProjectCard 
                     key={project.project_symbol}
                     variant={project.project_type} 
-                    projectName={project.project_name} 
-                    projectSymbol={project.project_symbol}
-                    projectYear={project.project_year}
-                    projectCategory={project.project_category}
                     project={project}
                     changePanelPresentation={changePanelPresentation}
                      /> )}

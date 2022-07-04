@@ -7,7 +7,7 @@ import ProjectYear from '../../atoms/text-elements/ProjectYear'
 import './projectCardStyles.css'
 
 
-const ProjectCard = ({ variant, project, projectYear, projectSymbol, projectName, projectCategory }) => {
+const ProjectCard = ({ variant, project, changePanelPresentation }) => {
 
   const projectVariants = classNames('projectCardContainer', 
     {
@@ -16,14 +16,18 @@ const ProjectCard = ({ variant, project, projectYear, projectSymbol, projectName
       'designUI': variant === 'designUI',
     }
   )
+  
+  
 
   return (
-    <div className={projectVariants} onClick={() => console.log(project)} >
+    <div 
+    className={projectVariants} 
+    onClick={() => changePanelPresentation(project)} >
       <div className='projectInfoContainer'>
-        <ProjectYear content={projectYear} />
-        <ProjectSymbol content={projectSymbol} />
-        <ProjectName content={projectName}/>
-        <Descriptions variant={"m"} content={projectCategory} />
+        <ProjectYear content={project.project_year} />
+        <ProjectSymbol content={project.project_symbol} />
+        <ProjectName content={project.project_name}/>
+        <Descriptions variant={"m"} content={project.project_category} />
       </div>
     </div>
   )
