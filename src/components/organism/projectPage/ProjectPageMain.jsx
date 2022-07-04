@@ -9,7 +9,7 @@ import { useState } from 'react';
 const ProjectPageMain = () => {
 
   // const [panelOpen, setPanelOpen] = useState(false)
-  const [projectPresented, setProjectPresented] = useState({})
+  const [projectPresented, setProjectPresented] = useState()
 
   const changePanelPresentation = (addedProject) => {
     setProjectPresented({ addedProject })
