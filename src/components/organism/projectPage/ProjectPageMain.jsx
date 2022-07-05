@@ -12,14 +12,15 @@ const ProjectPageMain = () => {
   const [projectPresented, setProjectPresented] = useState()
 
   const changePanelPresentation = (addedProject) => {
-    setProjectPresented({ addedProject })
+    setProjectPresented(addedProject)
   }
   
   return (
     <div className='projectPageContainer'>
         <PageTitle headerContent={"My Experiments"} subheaderContent={"Discover my projects"} />
       <ProjectTable projects={projectsAbout} changePanelPresentation={changePanelPresentation} />
-      <ProjectContainer projectPresented={projectPresented} />
+      {projectPresented ? <ProjectContainer projectPresented={projectPresented} /> : null }
+      <button onClick={()=>console.log(projectPresented)}>Ck</button>
     </div>
   )
 }
