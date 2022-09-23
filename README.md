@@ -8,11 +8,11 @@ Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-
 ## Development Process:
 
 ### Done
- - Set up the page ✅
  - Netlify deployment ✅
+ - Project Page ✅
 ### WIP (Working currently)
  - Main Page 
- - Project Page
+ - Project Descriptions & Presentation
 ### To-Do's
   - About me page
   - Contact page

@@ -20,7 +20,6 @@ const ProjectPageMain = () => {
         <PageTitle headerContent={"My Experiments"} subheaderContent={"Discover my projects"} />
       <ProjectTable projects={projectsAbout} changePanelPresentation={changePanelPresentation} />
       {projectPresented ? <ProjectContainer projectPresented={projectPresented} /> : null }
-      <button onClick={()=>console.log(projectPresented)}>Ck</button>
     </div>
   )
 }

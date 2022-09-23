@@ -9,10 +9,10 @@ const ProjectContainer = ({projectPresented}) => {
     <div className="projectPanelContainer">
       <div className="projectPanelWrapper">
         <div className="projectImage">
-          <ProjectImage content={projectPresented.project_stack} imageAlt="Test" imageSource={'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80'}/>
+          <ProjectImage content={projectPresented.project_stack} imageAlt="Test" imageSource={projectPresented.project_imagesrc}/>
         </div>
         <div className="projectDescription">
-          <ProjectDescription project={projectPresented} projectLinkName={'Project Page at Behance'}/>
+          <ProjectDescription project={projectPresented} projectLinkName={'Project Page'}/>
         </div>
       </div>
     </div>

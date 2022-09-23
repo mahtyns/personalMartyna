@@ -18,7 +18,8 @@ export const projectsAbout = [{
     project_stack: ['Figma', 'Photoshop', 'Illustrator'],
     project_category: 'Design',
     project_status: 'Finished',
-    project_link: 'https://www.behance.net/gallery/122593259/Pam-App-Challenge'
+    project_link: 'https://www.figma.com/file/6os6AexKkKm7BGhpOW7iWR/Pam-App-challenge', 
+    project_imagesrc: 'https://i.ibb.co/cb1c5Rh/pamapp.gif', 
 },
 {
     project_name: 'WineLovers Store',
@@ -28,7 +29,10 @@ export const projectsAbout = [{
     project_type: 'designCode',
     project_stack: ['HTML', 'CSS'],
     project_category: 'Code',
-    project_status: 'Finished'
+    project_status: 'Finished',
+    project_link: 'https://mahtyns.github.io/WineloversShop/',
+    project_imagesrc: 'https://i.ibb.co/qdyxcZz/winelovers-shop-page.gif'
+
 },
 {
     project_name: 'Hangman Game',
@@ -38,7 +42,9 @@ export const projectsAbout = [{
     project_type: 'programming',
     project_stack: ['Javascript'],
     project_category: 'Programming',
-    project_status: 'WIP'
+    project_status: 'WIP',
+    project_link: 'https://mahtyns.github.io/hangmanGame/',
+    project_imagesrc: 'https://i.ibb.co/d7fnSzR/hangmangame.gif'
 },
 {
     project_name: 'Sarai Web Redesign',
@@ -48,5 +54,18 @@ export const projectsAbout = [{
     project_type: 'designUI',
     project_stack: ['Figma', 'Photoshop', 'Illustrator'],
     project_category: 'Design',
-    project_status: 'Finished'
+    project_status: 'Finished',
+    project_link: 'https://www.behance.net/gallery/129222825/Sarais-web-page-refresh', 
+    project_imagesrc: 'https://i.ibb.co/NxwzzBn/sarais.gif', 
+},
+{
+    project_name: 'Friends after 30 Game',
+    project_symbol: 'Fa',
+    project_year: 2022,
+    project_description: 'A React Native app with a party game',
+    project_type: 'programming',
+    project_stack: ['React Native'],
+    project_category: 'Programming',
+    project_status: 'WIP'
 }]
+
