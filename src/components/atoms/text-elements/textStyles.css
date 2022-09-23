@@ -83,11 +83,11 @@
 }
 
 .descriptionContainer.m {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .descriptionContainer.l {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     letter-spacing: 2px;
     line-height: 2.5rem;
 
@@ -140,3 +140,15 @@
     padding: .5rem 2rem;
     letter-spacing: 2px;
 }
+
+.projectCategoryText {
+    font-size: 1rem;
+    padding: 0 2rem;
+
+}
+
+.projectCategoryContainer {
+    margin: 1.4rem 0;
+    text-transform: uppercase;
+}
+

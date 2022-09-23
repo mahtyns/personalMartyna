@@ -10,7 +10,8 @@ const ProjectDescription = ({project, projectLinkName}) => {
         <div className="projectDescrWrapper">
             <ProjectYear content={project.project_year} />
         <TitleMain content={project.project_name} variant={'l'}/>
-        <Descriptions content={project.project_description} variant={'l'} textransform={'none'}/>
+        <Descriptions content={project.project_subtitle} variant={'l'} textransform={'none'}/>
+        <Descriptions content={project.project_description} variant={'m'} textransform={'none'}/>
         <Links content={'Find more here: '} source={project.project_link} linkName={projectLinkName} />
         </div>
     </div>

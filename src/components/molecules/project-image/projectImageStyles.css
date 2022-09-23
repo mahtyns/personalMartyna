@@ -16,7 +16,14 @@
 
 .projectImageContainer {
     position: relative;
+    height: 43rem;
 }
+
+.projectImageContainer img {
+    object-fit: cover;
+    height: 43rem;
+}
+
 
 .projectStack {
     position: absolute;
