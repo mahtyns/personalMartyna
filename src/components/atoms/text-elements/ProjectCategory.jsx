@@ -1,4 +1,3 @@
-import React from 'react'
 import './textStyles.css'
 
 const ProjectCategory = ({ content }) => {

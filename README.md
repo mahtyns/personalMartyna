@@ -10,6 +10,7 @@ Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-
 ### Done
  - Netlify deployment ✅
  - Project Page ✅
+ - Project Descriptions and pictures ✅
 ### WIP (Working currently)
  - Main Page 
  - Project Descriptions & Presentation
