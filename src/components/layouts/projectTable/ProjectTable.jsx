@@ -1,7 +1,6 @@
 import React from 'react';
 import './projectTableStyles.css';
 import ProjectCard from '../../molecules/projectCard/ProjectCard';
-import { useState } from 'react';
 
 const ProjectTable = ({ projects, changePanelPresentation }) => {
   
