@@ -1,8 +1,20 @@
 import React from 'react'
+import Descriptions from '../../atoms/text-elements/Descriptions'
+import TitleMain from '../../atoms/text-elements/TitleMain'
+import './combinationsStyles.css'
 
-const TextImageRight = () => {
+
+const TextImageRight = ({ imageSource, imageAlt, titleMain, description, titleVariant, descrVariant }) => {
   return (
-    <div>TextImageRight</div>
+    <div className='imgTextCombinationContainer'>
+      <div className='imgTextWrapper'>
+        <div className='textContents'>
+          <TitleMain content={titleMain} variant={titleVariant} />
+          <Descriptions content={description} variant={descrVariant} />
+        </div>
+        <img src={imageSource} alt={imageAlt} />
+      </div>
+    </div>
   )
 }
 

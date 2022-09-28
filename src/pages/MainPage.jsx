@@ -21,8 +21,8 @@ const MainPage = () => {
           description={mainPageDescriptions[0]} 
           titleVariant={'l'} 
           descrVariant={'l'}/>}/>
-      <MainPageSection sectionTitle={"Discover my projects"} buttonContent={"Dive in"} buttonVariant={'dark'}/>
-      <MainPageSection sectionTitle={"Looking for me?"} buttonContent={"Contact me"} buttonVariant={'dark'}/>
+      <MainPageSection sectionTitle={"Discover my projects"} buttonContent={<Link to="/projects">Dive in</Link>} buttonVariant={'dark'}/>
+      <MainPageSection sectionTitle={"Looking for me?"} buttonContent={<Link to="/contact">Contact me</Link>} buttonVariant={'dark'}/>
     </>
   )
 }

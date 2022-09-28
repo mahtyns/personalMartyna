@@ -6,14 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-personalsite.netlify.app)
 
 ## Development Process:
+### WIP (Working currently)
+ - Main Page 
+ - About Me Page
 
-### Done
+ ### Done
  - Netlify deployment ✅
  - Project Page ✅
  - Project Descriptions and pictures ✅
-### WIP (Working currently)
- - Main Page 
- - Project Descriptions & Presentation
 ### To-Do's
   - About me page
   - Contact page

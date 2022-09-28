@@ -31,6 +31,8 @@
     letter-spacing: 3px;
 }
 
+
+
 .subheaderContainer {
     width: 100%;
     display: flex;
@@ -54,6 +56,7 @@
     font-family: var(--font-special);
     letter-spacing: 2px;
 }
+
 
 .projectNameText {
     font-style: var(--font-special);
@@ -152,3 +155,35 @@
     text-transform: uppercase;
 }
 
+.textCtrContainer {
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.textCtrContainer.xs {
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.textCtrContainer.s {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.textCtrContainer.m {
+    font-size: 1.7rem;
+    text-align: center;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.textCtrContainer.l {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--main-color);
+    text-transform: uppercase;
+}

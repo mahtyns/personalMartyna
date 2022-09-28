@@ -7,7 +7,7 @@ const AboutMainPage = () => {
   return (
     <div className='aboutPageContainer'>
       <PageTitle headerContent={"About the scientist"} subheaderContent={"Get to know me better"}/>
-      </div>
+    </div>
   )
 }
 
