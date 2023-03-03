@@ -1,5 +1,5 @@
 :root {
-    --main-color: #fff7f7;
+    --main-color: #d6d6d6;
     --background: #010809;
     --peach:#f87459;
     --purple-dark: #672c95;
@@ -15,13 +15,14 @@
 }
 
 .navigationContainer {
-    padding: 0.1em 2.3em;
+    padding: 1em 2.3em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: var(--grey-dark);
+    background-color: var(--background);
+    box-shadow: 0 2px 15px rgba(255,255,255,0.1);
 }
 
 .navLinkContainer {

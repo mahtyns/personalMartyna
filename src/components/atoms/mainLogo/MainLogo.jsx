@@ -5,7 +5,7 @@ const MainLogo = () => {
   return (
     <div className='mainLogoContainer'>
       {/* <img src="" alt='ToBeChanged-Logo Lab'/> */}
-      <p className='alertBar'>Martyna Smolarek</p>
+      <p className='alertBar'>M</p>
     </div>
   )
 }

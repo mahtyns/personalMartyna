@@ -14,7 +14,7 @@
 
 .stackBubble {
     padding: .4rem 1.2rem;
-    background-color: var(--purple-dark);
+    background: linear-gradient(202deg, rgba(42,254,232,1) 0%, rgba(18,117,218,1) 51%);    
     border: none;
     border-radius: 1rem;
     color: var(--main-color);

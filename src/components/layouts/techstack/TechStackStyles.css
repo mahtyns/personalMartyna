@@ -1,13 +1,14 @@
-.sectionContainer {
+.techStackContainer {
     margin-top: 2rem;
     box-shadow: 0 2px 4px rgba(255,255,255,0.1);
-
 }
 
-.sectionWrapper {
+.techStackTitles {
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
     align-items: center;
-    justify-content: space-evenly;
+}
+
+.techStackToolsWrapper {
+    margin: 1em 0;
 }

@@ -1,5 +1,5 @@
 :root {
-    --main-color: #fff7f7;
+    --main-color: #d6d6d6;
     --background: #010809;
     --peach:#f87459;
     --purple-dark: #672c95;
@@ -103,6 +103,15 @@
     font-size: 3rem;
     font-weight: 200;
     letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sectionSubeader {
+    font-style: var(--font-special);
+    color: var(--grey-light);
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 1.8px;
     text-transform: uppercase;
 }
 

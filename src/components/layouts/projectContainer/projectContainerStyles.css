@@ -9,7 +9,6 @@
     --green-light: #a9dec5;
     --cyan: #2afee8;
     --grey-light: #c9c9c9;
-    --grey-dark: #292929;
     --main-font: 'Assistant', sans-serif;
     --font-special: 'Prompt', sans-serif;
 }
@@ -24,11 +23,12 @@
 
 .projectPanelWrapper {
     width: 90%;
-    background-color: var(--grey-dark);
+    background-color: var(--background);
     display: flex;
     flex-direction: row;
     height: 43rem;
     border-radius: 1rem;
+    box-shadow: 0 0 8px var(--green-light)
 }
 
 .projectImage {

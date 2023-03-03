@@ -9,7 +9,8 @@ const TextCentered = ({variant, content}) => {
         'xs': variant === "xs",
         's': variant === "s",
         'm': variant === "m",
-        'l': variant === "l"
+        'l': variant === "l",
+        'stack': variant === 'stack'
     }
   )  
 
