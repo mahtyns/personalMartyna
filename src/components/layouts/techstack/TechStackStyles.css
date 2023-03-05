@@ -1,6 +1,7 @@
 .techStackContainer {
     margin-top: 2rem;
-    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+    margin-bottom: 4em;
+
 }
 
 .techStackTitles {
@@ -10,5 +11,5 @@
 }
 
 .techStackToolsWrapper {
-    margin: 1em 0;
+    margin: 2em 0;
 }

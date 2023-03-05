@@ -1,9 +1,11 @@
 import React from 'react'
 import SectionHeader from '../../atoms/text-elements/SectionHeader'
 import SectionSubheader from '../../atoms/text-elements/SectionSubheader'
-import DesignTools from '../../molecules/techstackTools/DesignTools'
+// import DesignTools from '../../molecules/techstackTools/DesignTools'
 import TechStackTools from '../../molecules/techstackTools/TechStackTools'
 import './TechStackStyles.css'
+import { backEndTools, designTools, otherTools } from '../../../datafiles/stack'
+import { stackToolsFE } from '../../../datafiles/stack'
 
 const TechStackSection = props => {
 
@@ -14,10 +16,10 @@ const TechStackSection = props => {
                 <SectionSubheader sectionSubTitle={'Technology tools I use'} />
             </div>
             <div className="techStackToolsWrapper">
-                <TechStackTools toolsCategory={'Frontend'} />
-                <TechStackTools toolsCategory={'Backend'}/>
-                <DesignTools toolsCategory={'Design'}/>
-                <TechStackTools toolsCategory={'Other'}/>
+                <TechStackTools toolsCategory={'Frontend'} toolsList={stackToolsFE}/>
+                <TechStackTools toolsCategory={'Backend'} toolsList={backEndTools}/>
+                <TechStackTools toolsCategory={'Design'} toolsList={designTools} />
+                <TechStackTools toolsCategory={'Other'} toolsList={otherTools}/> 
             </div>
         </div>
     )
