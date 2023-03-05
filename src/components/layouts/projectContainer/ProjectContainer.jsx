@@ -4,15 +4,15 @@ import ProjectDescription from '../../molecules/project-description/ProjectDescr
 import './projectContainerStyles.css';
 
 
-const ProjectContainer = ({projectPresented}) => {
+const ProjectContainer = (props) => {
   return (
     <div className="projectPanelContainer">
       <div className="projectPanelWrapper">
         <div className="projectImage">
-          <ProjectImage content={projectPresented.project_stack} imageAlt="Test" imageSource={projectPresented.project_imagesrc}/>
+          <ProjectImage content={props.projectPresented.project_stack} imageAlt="Test" imageSource={props.projectPresented.project_imagesrc}/>
         </div>
         <div className="projectDescription">
-          <ProjectDescription project={projectPresented} projectLinkName={'Project Page'}/>
+          <ProjectDescription project={props.projectPresented} projectLinkName={'Project Page'}/>
         </div>
       </div>
     </div>

@@ -8,6 +8,7 @@ Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-
 ## Development Process:
 ### WIP (Working currently)
  - Main Page 
+ - Project Gallery & Interactions
  - About Me Page
 
  ### Done
@@ -15,7 +16,6 @@ Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-
  - Project Page ✅
  - Project Descriptions and pictures ✅
 ### To-Do's
-  - About me page
   - Contact page
 
 ## Dependencies:

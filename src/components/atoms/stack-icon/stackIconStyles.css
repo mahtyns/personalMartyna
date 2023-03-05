@@ -1,0 +1,9 @@
+.stackIconWrapper img {
+    width: 4em;
+    height: auto;
+}
+
+.stackIconWrapper {
+    width: 4em;
+    margin: 0 auto;
+}

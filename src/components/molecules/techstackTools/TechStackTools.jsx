@@ -1,11 +1,15 @@
 import React from 'react'
 import TextCentered from '../../atoms/text-elements/TextCentered'
+import StackTool from '../stackTool/StackTool'
+import './toolsStyles.css'
+import { stackToolsFE } from '../../../datafiles/stack'
 
-const TechStackTools = ({toolsCategory, toolsList}) => {
+const TechStackTools = (props) => {
   return (
     <>
-        <TextCentered variant={'s'} content={ toolsCategory } />
+        <TextCentered variant={'s'} content={ props.toolsCategory } />
         <div className="toolsWrapper">
+          {stackToolsFE.map(tool => <StackTool tool={tool} />)}
         </div>
     </>
   )
