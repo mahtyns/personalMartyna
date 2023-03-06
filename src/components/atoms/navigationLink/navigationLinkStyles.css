@@ -1,26 +1,15 @@
-:root {
-    --main-color: #fff7f7;
-    --background: #010809;
-    --peach:#f87459;
-    --purple-dark: #672c95;
-    --purple-light: #cfaeea;
-    --blue-light: #1275da;
-    --yellow: #f2e658;
-    --green-light: #a9dec5;
-    --cyan: #2afee8;
-    --main-font: 'Assistant', sans-serif;
-    --font-special: 'Prompt', sans-serif;
-}
+@import '../../../assets/mainStyles.css';
 
 .navLink {
     color: var(--green-light);
     text-transform: uppercase;
     font-size: 1.2rem;
     font-family: var(--main-font);
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
-}
+    letter-spacing: 2.5px;
+    transition: ease-in-out .2s all; }
 
 .navLink:link {
     text-decoration: none;
