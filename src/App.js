@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Routing />
-      <Footer content={'Coded by Martyna | 2022'}/>
+      <Footer content={'Coded by Martyna | 2022/2023'}/>
     </div>
   );
 }
