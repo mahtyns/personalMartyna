@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ImageProject = ({imageSource, imageAlt}) => {
+const ImageProject = (props) => {
   return (
     <div className='imageProjectContainer'>
-        <img alt={imageAlt} src={imageSource} />
+        <img alt={props.imageAlt} src={props.imageSource} />
     </div>
   )
 }

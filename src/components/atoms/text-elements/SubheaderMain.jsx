@@ -1,12 +1,10 @@
-import React from 'react'
 import './textStyles.css'
 
-
-const SubheaderMain = ({content}) => {
+const SubheaderMain = (props) => {
   return (
     <div className='subheaderContainer'>
         <div className='subheaderContent'>
-            {content}
+            {props.content}
         </div>
     </div>
   )

@@ -1,10 +1,10 @@
 import React from 'react';
 import "./stackBubbleStyle.css";
 
-const StackBubble = ({content}) => {
+const StackBubble = (props) => {
   return (
     <div className='stackBubble'>
-        {content}
+        {props.content}
     </div>
   )
 }

@@ -1,19 +1,18 @@
-import React from 'react'
 import classNames from 'classnames'
 
 
-const TitleMain = ({variant, content}) => {
+const TitleMain = (props) => {
 
   const titleClasses = classNames('titleContainer', {
-    'xs': variant === "xs",
-    's': variant === "s",
-    'm': variant === "m",
-    'l': variant === "l"
+    'xs': props.variant === "xs",
+    's': props.variant === "s",
+    'm': props.variant === "m",
+    'l': props.variant === "l"
   })
 
   return (
     <div className={titleClasses}>
-            {content}
+            {props.content}
     </div>
   )
 }

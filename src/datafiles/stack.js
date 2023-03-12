@@ -15,6 +15,10 @@ export const stackToolsFE = [
         tool_Img: 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png'
     },
     {
+        tool_Name: 'React Query',
+        tool_Img: 'https://react-query-v3.tanstack.com/_next/static/images/emblem-light-628080660fddb35787ff6c77e97ca43e.svg'
+    },
+    {
         tool_Name: 'JavaScript',
         tool_Img: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png'
     },
@@ -63,6 +67,10 @@ export const backEndTools = [
     { 
         tool_Name: 'PostgreSQL',
         tool_Img: 'https://cdn-icons-png.flaticon.com/512/5968/5968342.png'
+    },
+    { 
+        tool_Name: 'NODE JS',
+        tool_Img: 'https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png'
     },
     ];
 

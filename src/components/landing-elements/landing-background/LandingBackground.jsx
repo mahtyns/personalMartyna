@@ -1,4 +1,3 @@
-import React from 'react'
 import LandingTitle from '../landing-title/LandingTitle'
 import './landingBackgroundStyles.css';
 import Button from '../../atoms/button/Button';

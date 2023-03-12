@@ -2,10 +2,10 @@ import React from 'react';
 import './textStyles.css';
 
 
-const SectionSubheader = ({ sectionSubTitle }) => {
+const SectionSubheader = (props) => {
     return (
         <h1 className='sectionSubeader'>
-            {sectionSubTitle}
+            {props.sectionSubTitle}
         </h1>
     )
 }

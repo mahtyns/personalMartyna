@@ -1,11 +1,10 @@
-import React from 'react'
 import './textStyles.css'
 
-const ProjectYear = ({content}) => {
+const ProjectYear = (props) => {
   return (
     <div className='projectYearContainer'>
         <div className='projectYearText'> 
-            {content}
+            {props.content}
         </div>
     </div>
   )

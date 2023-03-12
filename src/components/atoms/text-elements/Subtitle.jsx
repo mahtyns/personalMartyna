@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Subtitle = ({content}) => {
+const Subtitle = (props) => {
   return (
     <div className='subtitleContainer'>
         <div className='subtitleText'>
-            {content}
+            {props.content}
         </div>
     </div>
   )

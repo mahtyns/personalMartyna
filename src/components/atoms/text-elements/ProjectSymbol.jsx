@@ -2,11 +2,11 @@ import React from 'react'
 import './textStyles.css'
 
 
-const ProjectSymbol = ({content}) => {
+const ProjectSymbol = (props) => {
   return (
     <div className='symbolContainer'>
         <div className='symbolContent'>
-            {content}
+            {props.content}
         </div>
     </div>
   )

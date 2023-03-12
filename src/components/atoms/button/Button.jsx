@@ -2,16 +2,16 @@ import classNames from "classnames"
 import React from 'react'
 import './buttonStyles.css'
 
-const Button = ({variant, content}) => {
+const Button = (props) => {
 
   const classesButton = classNames('buttonGeneral', {
-    'light': variant === 'light',
-    'dark': variant === 'dark',
+    'light': props.variant === 'light',
+    'dark': props.variant === 'dark',
   })
 
   return (
     <>
-    <button className={classesButton}>{content}</button>
+    <button className={classesButton}>{props.content}</button>
     </>
   ) 
 }

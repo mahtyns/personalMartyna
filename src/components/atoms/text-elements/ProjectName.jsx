@@ -1,21 +1,20 @@
-import React from 'react'
 import './textStyles.css'
 import classNames from 'classnames'
 
 
-const ProjectName = ({content, variant}) => {
+const ProjectName = (props) => {
 
   const titleVariants = classNames('projectNameText', {
-    'xs': variant === "xs",
-    's': variant === "s",
-    'm': variant === "m",
-    'l': variant === "l"
+    'xs': props.variant === "xs",
+    's': props.variant === "s",
+    'm': props.variant === "m",
+    'l': props.variant === "l"
   })
 
 
   return (
     <div className={titleVariants}>
-        {content}
+        {props.content}
     </div>
   )
 }

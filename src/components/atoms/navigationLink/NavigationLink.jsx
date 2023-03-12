@@ -2,9 +2,9 @@ import React from 'react';
 import "./navigationLinkStyles.css";
 
 
-const NavigationLink = ({navigationLink}) => {
+const NavigationLink = (props) => {
   return (
-    <div className='navLink'>{navigationLink}</div>
+    <div className='navLink'>{props.navigationLink}</div>
   )
 }
 

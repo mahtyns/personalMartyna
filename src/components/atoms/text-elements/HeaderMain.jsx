@@ -1,11 +1,11 @@
 import React from 'react'
 import './textStyles.css'
 
-const HeaderMain = ( {content}) => {
+const HeaderMain = ( props) => {
   return (
     <div className='headerContainer'>
         <div className='headerContent'>
-            {content}
+            {props.content}
         </div>
     </div>
   )

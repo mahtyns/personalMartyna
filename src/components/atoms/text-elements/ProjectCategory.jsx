@@ -1,10 +1,10 @@
 import './textStyles.css'
 
-const ProjectCategory = ({ content }) => {
+const ProjectCategory = (props) => {
     return (
         <div className='projectCategoryContainer'>
             <div className='projectCategoryText'>
-                {content}
+                {props.content}
             </div>
         </div>
     )

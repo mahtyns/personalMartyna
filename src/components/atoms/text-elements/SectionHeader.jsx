@@ -1,11 +1,10 @@
-import React from 'react';
 import './textStyles.css';
 
 
-const SectionHeader = ({sectionTitle}) => {
+const SectionHeader = (props) => {
   return (
     <h1 className='sectionHeader'>
-        {sectionTitle}
+        {props.sectionTitle}
     </h1>
   )
 }

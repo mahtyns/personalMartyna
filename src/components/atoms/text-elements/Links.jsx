@@ -1,9 +1,8 @@
-import React from 'react'
 
-const Links = ({content, linkName, source}) => {
+const Links = (props) => {
   return (
     <div className="linkContainer">
-        {content} <a href={source} target='_blank' rel="noreferrer"> {linkName}</a>
+        {props.content} <a href={props.source} target='_blank' rel="noreferrer"> {props.linkName}</a>
     </div>
   )
 }
