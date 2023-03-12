@@ -6,7 +6,7 @@ import MainPage from "./pages/MainPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
-import ProjectParticles from './test/ProjectParticles';
+import { BackgroundLanding } from './test/BackgroundLanding';
 
 
 const Routing = () => {
@@ -19,7 +19,7 @@ const Routing = () => {
         <Route path='/projects' element={<ProjectsPage />}/>
         <Route path='/about' element={<AboutPage />}/>
         <Route path='/contact' element={< ContactPage/>}/>
-        <Route path='/test' element={<ProjectParticles />} />
+        <Route path='/test' element={<BackgroundLanding />} />
       </Routes>
       </Router>
     </div>

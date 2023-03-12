@@ -1,5 +1,5 @@
 import React from 'react'
-import LandingBackground from '../components/landing-elements/landing-background/LandingBackground';
+import LandingBackgroundTop from '../components/landing-elements/landing-background/LandingBackgroundTop';
 import MainPageSection from '../components/layouts/mainPageSection/MainPageSection';
 import ImageLeftText from '../components/molecules/image-text-combinations/ImageLeftText';
 import mainPageDescriptions from '../datafiles/descriptions';
@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 const MainPage = () => {
   return (
     <>
-      <LandingBackground />
+      <LandingBackgroundTop />
       <MainPageSection 
       sectionTitle={"About me"} 
           buttonContent={<Link to='/about'>More</Link>} 
