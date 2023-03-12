@@ -3,15 +3,15 @@ import Button from '../../atoms/button/Button';
 import SectionHeader from '../../atoms/text-elements/SectionHeader';
 import './mainPageSectionStyles.css';
 
-const MainPageSection = ({sectionTitle, content, buttonVariant, buttonContent}) => {
+const MainPageSection = (props) => {
   return (
     <div className='sectionContainer'>
         <div className='sectionWrapper'>
-            <SectionHeader sectionTitle={sectionTitle}/>
+            <SectionHeader sectionTitle={props.sectionTitle}/>
             <div className='sectionContent'>
-            {content}
+            {props.content}
             </div>
-        {buttonContent ? <Button variant={buttonVariant} content={buttonContent} /> : null}
+            {props.buttonContent ? <Button variant={props.buttonVariant} content={props.buttonContent} /> : null}
         </div>
     </div>
   )

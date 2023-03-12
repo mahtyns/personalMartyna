@@ -76,4 +76,19 @@ export const projectsAbout = [{
     project_status: 'WIP',
     project_link: 'https://github.com/mahtyns/friendsOver30', 
     project_imagesrc: 'https://i.ibb.co/N9KWtDW/kitty.jpg', 
-}]
+},
+{
+    project_name: 'WalkingBooks',
+    project_symbol: 'Wb',
+    project_year: 2023,
+    project_subtitle: 'React SPA for exchanging books',
+    project_description: '',
+    project_type: 'programming',
+    project_stack: ['React', 'React Query', 'React Router', 'Books API'],
+    project_category: 'Programming',
+    project_status: 'WIP',
+    project_link: 'https://github.com/mahtyns/bookApp', 
+    project_imagesrc: 'https://i.ibb.co/N9KWtDW/kitty.jpg', 
+},
+
+]

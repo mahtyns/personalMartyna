@@ -1,13 +1,14 @@
 .sectionContainer {
-    margin-top: 2rem;
-    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
-    margin-bottom: 2em;
+    margin-top: 3rem;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.15);
+    margin-bottom: 3em;
+    box-sizing: border-box;
 }
 
 .sectionWrapper {
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
+    min-height: 100vh;
     align-items: center;
     justify-content: space-evenly;
 }

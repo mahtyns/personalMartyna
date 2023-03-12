@@ -11,13 +11,13 @@ const MainPage = () => {
     <>
       <LandingBackgroundTop />
       <MainPageSection 
-      sectionTitle={"About me"} 
+      sectionTitle={"Hello, traveller"} 
           buttonContent={<Link to='/about'>More</Link>} 
           buttonVariant={'dark'} 
-      content={<ImageLeftText
-          imageSource={'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80'}
+          content={<ImageLeftText
+          imageSource={'https://i.ibb.co/b1G5yDp/dna-strand.png'}
           imageAlt={'Placeholder'} 
-          titleMain={'Meet me'} 
+          titleMain={'Nice to meet you'} 
           description={mainPageDescriptions[0]} 
           titleVariant={'l'} 
           descrVariant={'l'}/>}/>

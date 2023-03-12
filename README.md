@@ -21,7 +21,7 @@ Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-
 ## Dependencies:
  - React Router - navigating between pages - [More info]("https://reactrouter.com")
  - classnames - manage CSS classes - [More info]("https://www.npmjs.com/package/classnames")
-
+ - react-tsparticles - main page particles animation - [More info](https://www.npmjs.com/package/react-tsparticles)
 
 ## Available Scripts
 
