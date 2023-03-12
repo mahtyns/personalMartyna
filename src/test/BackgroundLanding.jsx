@@ -14,10 +14,12 @@ export const BackgroundLanding = () => {
   }, []);
 
   return (
-    <div style={{height: '100vh'}}>
-    <Particles id="tsparticles" options={options} init={particlesInit} loaded={particlesLoaded} style={{backgroundColor: '#6d6d6d'}} />
+    <div className="particlesContainer">
+    <Particles id="tsparticles" options={options} init={particlesInit} loaded={particlesLoaded} />
     </div>
   );
 
 
 }
+
+export default BackgroundLanding

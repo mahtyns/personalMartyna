@@ -6,6 +6,7 @@
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     font-size: 6rem;
+    white-space: nowrap;
     font-weight: 500;
     position: relative;
     text-shadow: 
