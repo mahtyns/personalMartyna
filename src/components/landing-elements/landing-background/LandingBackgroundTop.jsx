@@ -1,7 +1,7 @@
 import LandingTitle from '../landing-title/LandingTitle'
 import './landingBackgroundStyles.css';
 import Button from '../../atoms/button/Button';
-import BackgroundLanding from '../../../test/BackgroundLanding';
+import BackgroundLanding from './BackgroundLanding';
 import SectionHeader from '../../atoms/text-elements/SectionHeader';
 
 const LandingBackground = () => {

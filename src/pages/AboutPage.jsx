@@ -8,7 +8,6 @@ import TechStackSection from '../components/layouts/techstack/TechStackSection';
 const AboutPage = () => {
   return (
     <>
-      <AboutMainPage />
       <MainPageSection sectionTitle={aboutMeDescr[0].title} 
       content={<ImageLeftText 
         titleMain={aboutMeDescr[0].subtitle} 

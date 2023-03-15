@@ -15,7 +15,7 @@ const MainPage = () => {
           buttonContent={<Link to='/about'>More</Link>} 
           buttonVariant={'dark'} 
           content={<ImageLeftText
-          imageSource={'https://i.ibb.co/b1G5yDp/dna-strand.png'}
+            imageSource={'https://svgshare.com/i/rAb.svg'}
           imageAlt={'Placeholder'} 
           titleMain={'Nice to meet you'} 
           description={mainPageDescriptions[0]} 

@@ -23,6 +23,7 @@ body {
     background-color: var(--background);
     font-family: var(--main-font);
     min-height: 100vh;
+    color: var(--main-color);
 }
 
 a {
@@ -48,4 +49,9 @@ a {
     height: 90vh;
 
     position: relative
+}
+
+#aboutParticles {
+    width: 50vh;
+    height: 50vh;
 }
