@@ -23,3 +23,13 @@
     color: var(--cyan);
     letter-spacing: 4px;
 }
+
+@media screen and (max-width: 700px) {
+    .navLink {
+        font-size: .9rem;
+    }
+    .navLink:hover {
+        letter-spacing: 3px;
+    }
+
+}

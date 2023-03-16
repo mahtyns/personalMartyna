@@ -1,0 +1,15 @@
+@import './mainStyles.css';
+
+@keyframes pulsate {
+  50% {
+    box-shadow:
+      0 0 20px var(--main-color),
+      20px 0 80px var(--purple-light),
+      -20px 0 80px var(--purple-dark),
+      inset 0 0 50px var(--main-color),
+      inset -50px 0 80px var(--purple-light),
+      inset 50px 0 80px var(--purple-dark),
+      inset -50px 0 300px var(--purple-light),
+      inset 50px 0 300px var(--purple-dark);
+  }
+}

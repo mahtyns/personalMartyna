@@ -4,15 +4,15 @@ import TitleMain from '../../atoms/text-elements/TitleMain'
 import './combinationsStyles.css'
 
 
-const TextImageRight = ({ imageSource, imageAlt, titleMain, description, titleVariant, descrVariant }) => {
+const TextImageRight = (props) => {
   return (
     <div className='imgTextCombinationContainer'>
       <div className='imgTextWrapper'>
         <div className='textContents'>
-          <TitleMain content={titleMain} variant={titleVariant} />
-          <Descriptions content={description} variant={descrVariant} />
+          <TitleMain content={props.titleMain} variant={props.titleVariant} />
+          <Descriptions content={props.description} variant={props.descrVariant} />
         </div>
-        <img src={imageSource} alt={imageAlt} />
+        <img src={props.imageSource} alt={props.imageAlt} />
       </div>
     </div>
   )

@@ -3,23 +3,23 @@ const options = {
         enable: false
     },
     fpsLimit: 60,
-  particles: {
-    number: {
-      value: 50,
-      density: {
-        enable: true,
-        value_area: 700 //Denser the smaller the number.
+    particles: {
+      number: {
+        value: 50,
+        density: {
+          enable: true,
+          value_area: 500 
       }
     },
     color: {
       //The color for every node, not the connecting lines.
-      value: ["#672c95", "#1275da", "#2afee8"]
+      value: ["#672c95", "#1275da", "#2afee8", '#f87459']
     },
     shape: {
       type: "circle", // Can show circle, edge (a square), triangle, polygon, star, img, or an array of multiple.
       stroke: {
         //The border
-        width: 1,
+        width: 2,
         color: "#cfaeea"
       },
       polygon: {
@@ -45,17 +45,17 @@ const options = {
       enable: true,
       distance: 200, //The radius before a line is added, the lower the number the more lines.
       color: "#cfaeea",
-      opacity: 0.5,
-      width: 2
+      opacity: 0.2,
+      width: 1
     },
     move: {
       enable: true,
       speed: 2,
-      direction: "top", //Move them off the canvas, either "none", "top", "right", "bottom", "left", "top-right", "bottom-right" et cetera...
+      direction: "none", //Move them off the canvas, either "none", "top", "right", "bottom", "left", "top-right", "bottom-right" et cetera...
       random: true,
       straight: false, //Whether they'll shift left and right while moving.
-      out_mode: "out", //What it'll do when it reaches the end of the canvas, either "out" or "bounce".
-      bounce: false,
+      out_mode: "bounce", 
+      bounce: true,
       attract: {
         //Make them start to clump together while moving.
         enable: true,
@@ -68,13 +68,13 @@ const options = {
   interactivity: {
     detect_on: "canvas",
     events: {
-      onhover: {
-        enable: false,
-        mode: "repulse"
+      onHover: {
+        enable: true,
+        mode: "bubble"
       },
-      onclick: {
-        enable: false,
-        mode: "push"
+      onClick: {
+        enable: true,
+        mode: "repulse"
       },
       resize: true
     },
@@ -85,15 +85,18 @@ const options = {
           opacity: 1
         }
       },
+      firefly: {
+        enable: true
+      },
       bubble: {
-        distance: 800,
-        size: 80,
-        duration: 2,
-        opacity: 0.8,
-        speed: 3
+        distance: 450,
+        size: 45,
+        duration: 3,
+        opacity: .7,
+        speed: 5
       },
       repulse: {
-        distance: 400,
+        distance: 500,
         duration: 0.4
       },
       push: {
@@ -104,7 +107,7 @@ const options = {
       }
     }
   },
-  retina_detect: true
+  retina_detect: false
   }
 
 

@@ -1,3 +1,5 @@
+@import '../../../assets/animations.css';
+
 .imgTextCombinationContainer {
     width: 100%;
     display: flex;
@@ -15,9 +17,11 @@
 }
 
 .imgTextWrapper img  {
-    max-width: 40%;
+    max-width: 42%;
     height: auto;
     object-fit: cover;
+    border-radius: 50%;
+    animation: pulsate 12s linear infinite;
 }
 
 .textContents {

@@ -15,7 +15,7 @@ const MainPage = () => {
           buttonContent={<Link to='/about'>More</Link>} 
           buttonVariant={'dark'} 
           content={<ImageLeftText
-            imageSource={'https://svgshare.com/i/rAb.svg'}
+            imageSource={'https://i.ibb.co/KxyBwGY/flask.png'}
           imageAlt={'Placeholder'} 
           titleMain={'Nice to meet you'} 
           description={mainPageDescriptions[0]} 
@@ -28,3 +28,4 @@ const MainPage = () => {
 }
 
 export default MainPage
+
