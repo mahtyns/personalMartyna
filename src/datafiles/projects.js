@@ -9,6 +9,7 @@ export const projectsAbout = [{
     project_category: 'Programming',
     project_status: 'WIP',
     project_link: 'https://github.com/mahtyns/mahtyns.github.io',
+    project_link_deployed: 'https://mahtyns.github.io',
     project_imagesrc: 'https://i.ibb.co/9YgB0y4/myship.gif', 
 },
 {

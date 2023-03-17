@@ -54,8 +54,9 @@ const options = {
       direction: "none", //Move them off the canvas, either "none", "top", "right", "bottom", "left", "top-right", "bottom-right" et cetera...
       random: true,
       straight: false, //Whether they'll shift left and right while moving.
-      out_mode: "bounce", 
-      bounce: true,
+      out_mode: "out", 
+      bounce: false,
+      decay: .01,
       attract: {
         //Make them start to clump together while moving.
         enable: true,

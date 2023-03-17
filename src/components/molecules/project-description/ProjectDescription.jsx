@@ -4,15 +4,22 @@ import Links from '../../atoms/text-elements/Links'
 import ProjectYear from '../../atoms/text-elements/ProjectYear'
 import TitleMain from '../../atoms/text-elements/TitleMain'
 
-const ProjectDescription = ({project, projectLinkName}) => {
+const ProjectDescription = (props) => {
   return (
     <div className="projectDescriptionContainer">
         <div className="projectDescrWrapper">
-            <ProjectYear content={project.project_year} />
-        <TitleMain content={project.project_name} variant={'l'}/>
-        <Descriptions content={project.project_subtitle} variant={'l'} textransform={'none'}/>
-        <Descriptions content={project.project_description} variant={'m'} textransform={'none'}/>
-        <Links content={'Find more here: '} source={project.project_link} linkName={projectLinkName} />
+            <ProjectYear content={props.project.project_year} />
+        <TitleMain content={props.project.project_name} variant={'l'}/>
+        <Descriptions content={props.project.project_subtitle} variant={'l'} textransform={'none'}/>
+        <Descriptions content={props.project.project_description} variant={'m'} textransform={'none'}/>
+        {props.project.project_category !== 'Design' ? ( <>
+        <Links content={'Code page: '} source={props.project.project_link} linkName={'Github'} />
+        <Links content={'Live: '} source={props.project.project_link_deployed} linkName={'Visit page'} />
+        </>
+        )
+        : <Links content = { 'Find more here: ' } source = {props.project.project_link} linkName={'Behance Project Page'} /> }
+        {/* <Links content={'Find more here: '} source={props.project.project_link} linkName={props.projectLinkName} />
+        <Links content={'Live: '} source={props.project.project_link_deployed} linkName={props.projectLinkName} /> */}
         </div>
     </div>
   )

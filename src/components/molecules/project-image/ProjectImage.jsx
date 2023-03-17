@@ -2,11 +2,11 @@ import './projectImageStyles.css'
 import React from 'react'
 import StackBubble from '../../atoms/stack-bubble/StackBubble'
 
-const ProjectImage = ({imageSource, imageAlt, content}) => {
+const ProjectImage = (props) => {
   return (
         <div className="projectImageContainer">
-            <div className="projectStack">{content.map(element => <StackBubble key={element} content={element}/>)}</div> 
-            <img src={imageSource} alt={imageAlt} />
+            <div className="projectStack">{props.content.map(element => <StackBubble key={element} content={element}/>)}</div> 
+            <img src={props.imageSource} alt={props.imageAlt} />
         </div>
     )
 }
