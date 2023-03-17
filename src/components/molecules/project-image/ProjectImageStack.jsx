@@ -1,7 +1,6 @@
 import './projectImageStyles.css'
 import React from 'react'
 import StackBubble from '../../atoms/stack-bubble/StackBubble'
-import ImageProject from '../../atoms/image-project/ImageProject'
 
 const ProjectImage = (props) => {
   return (

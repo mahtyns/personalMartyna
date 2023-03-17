@@ -2,11 +2,11 @@ import React from 'react'
 import HeaderMain from '../../atoms/text-elements/HeaderMain'
 import SubheaderMain from '../../atoms/text-elements/SubheaderMain'
 
-const PageTitle = ({headerContent, subheaderContent}) => {
+const PageTitle = (props) => {
   return (
     <div>
-        <HeaderMain content={headerContent}/>
-        <SubheaderMain content={subheaderContent}/>
+        <HeaderMain content={props.headerContent}/>
+        <SubheaderMain content={props.subheaderContent}/>
     </div>
   )
 }

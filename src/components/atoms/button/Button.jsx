@@ -11,7 +11,7 @@ const Button = (props) => {
 
   return (
     <>
-    <button className={classesButton}>{props.content}</button>
+    <button className={classesButton} href={props.href}>{props.content}</button>
     </>
   ) 
 }
