@@ -10,7 +10,13 @@ export const projectsAbout = [{
     project_status: 'WIP',
     project_link: 'https://github.com/mahtyns/mahtyns.github.io',
     project_link_deployed: 'https://mahtyns.github.io',
-    project_imagesrc: 'https://i.ibb.co/9YgB0y4/myship.gif', 
+    project_imagesrc: 'https://i.ibb.co/9YgB0y4/myship.gif',
+    project_tasks: [
+        'Create SPA with React',
+        'Learn styled-components to style the page',
+        'Learn basic React Hooks',
+        'Use React-Router to navigate pages'
+    ]
 },
 {
     project_name: 'Pam App Challenge',
@@ -23,7 +29,11 @@ export const projectsAbout = [{
     project_category: 'Design',
     project_status: 'Finished',
     project_link: 'https://www.figma.com/file/6os6AexKkKm7BGhpOW7iWR/Pam-App-challenge', 
-    project_imagesrc: 'https://i.ibb.co/cb1c5Rh/pamapp.gif', 
+    project_imagesrc: 'https://i.ibb.co/cb1c5Rh/pamapp.gif',
+    project_tasks:[
+        'Analysis of the existing App',
+        'Re-design of the components to create more sense of community'
+    ]
 },
 {
     project_name: 'WineLovers Store',
@@ -36,7 +46,13 @@ export const projectsAbout = [{
     project_category: 'Code',
     project_status: 'Finished',
     project_link: 'https://mahtyns.github.io/WineloversShop/',
-    project_imagesrc: 'https://i.ibb.co/qdyxcZz/winelovers-shop-page.gif'
+    project_link_deployed: 'https://mahtyns.github.io/WineloversShop/',
+    project_imagesrc: 'https://i.ibb.co/qdyxcZz/winelovers-shop-page.gif',
+    project_tasks: [
+        'Learn HTML5 Tags',
+        'Learn new CSS3 Options',
+        'Learn CSS Animations'
+    ]
 
 },
 {
@@ -50,7 +66,11 @@ export const projectsAbout = [{
     project_category: 'Programming',
     project_status: 'WIP',
     project_link: 'https://mahtyns.github.io/hangmanGame/',
-    project_imagesrc: 'https://i.ibb.co/d7fnSzR/hangmangame.gif'
+    project_link_deployed: 'https://mahtyns.github.io/hangmanGame/',  
+    project_imagesrc: 'https://i.ibb.co/d7fnSzR/hangmangame.gif',
+    project_tasks: [
+        'Practise JavaScript functions'
+    ]
 },
 {
     project_name: 'Sarai Web Redesign',
@@ -63,7 +83,10 @@ export const projectsAbout = [{
     project_category: 'Design',
     project_status: 'Finished',
     project_link: 'https://www.behance.net/gallery/129222825/Sarais-web-page-refresh', 
-    project_imagesrc: 'https://i.ibb.co/NxwzzBn/sarais.gif', 
+    project_imagesrc: 'https://i.ibb.co/NxwzzBn/sarais.gif',
+    project_tasks: [
+        'Redesign of the existing web to make it more intuitive and aesthetic'
+    ]
 },
 {
     project_name: 'Friends after 30 Game',
@@ -76,7 +99,11 @@ export const projectsAbout = [{
     project_category: 'Programming',
     project_status: 'WIP',
     project_link: 'https://github.com/mahtyns/friendsOver30', 
-    project_imagesrc: 'https://i.ibb.co/N9KWtDW/kitty.jpg', 
+    project_link_deployed: 'https://github.com/mahtyns/friendsOver30', 
+    project_imagesrc: 'https://i.ibb.co/N9KWtDW/kitty.jpg',
+    project_tasks: [
+        'Learn basic React Native'
+    ]
 },
 {
     project_name: 'WalkingBooks',
@@ -88,8 +115,14 @@ export const projectsAbout = [{
     project_stack: ['React', 'React Query', 'React Router', 'Books API'],
     project_category: 'Programming',
     project_status: 'WIP',
-    project_link: 'https://github.com/mahtyns/bookApp', 
-    project_imagesrc: 'https://i.ibb.co/N9KWtDW/kitty.jpg', 
+    project_link: 'https://github.com/mahtyns/bookApp',
+    project_link_deployed: 'https://walkingbooks.netlify.app',
+    project_imagesrc: 'https://i.ibb.co/N9KWtDW/kitty.jpg',
+    project_tasks: [
+        'Broaden React knowledge',
+        'Use React Hooks for API Connections',
+        
+    ] 
 },
 
 ]

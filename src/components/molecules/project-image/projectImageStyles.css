@@ -2,12 +2,14 @@
 
 .projectImageContainer {
     position: relative;
-    height: 43rem;
+    height: 100%;
+    border-radius: inherit;
 }
 
 .projectImageContainer img {
     object-fit: cover;
-    height: 43rem;
+    height: 100%;
+    border-radius: inherit;
 }
 
 

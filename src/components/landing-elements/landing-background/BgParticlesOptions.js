@@ -56,7 +56,6 @@ const options = {
       straight: false, //Whether they'll shift left and right while moving.
       out_mode: "out", 
       bounce: false,
-      decay: .01,
       attract: {
         //Make them start to clump together while moving.
         enable: true,

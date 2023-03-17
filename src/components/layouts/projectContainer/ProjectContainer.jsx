@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectImage from '../../molecules/project-image/ProjectImage'
+import ProjectImageStack from '../../molecules/project-image/ProjectImageStack'
 import ProjectDescription from '../../molecules/project-description/ProjectDescription'
 import './projectContainerStyles.css';
 
@@ -9,10 +9,10 @@ const ProjectContainer = (props) => {
     <div className="projectPanelContainer">
       <div className="projectPanelWrapper">
         <div className="projectImage">
-          <ProjectImage content={props.projectPresented.project_stack} imageAlt="Test" imageSource={props.projectPresented.project_imagesrc}/>
+          <ProjectImageStack content={props.projectPresented.project_stack} imageAlt="Test" imageSource={props.projectPresented.project_imagesrc}/>
         </div>
         <div className="projectDescription">
-          <ProjectDescription project={props.projectPresented} projectLinkName={'Project Page'}/>
+          <ProjectDescription project={props.projectPresented} />
         </div>
       </div>
     </div>
