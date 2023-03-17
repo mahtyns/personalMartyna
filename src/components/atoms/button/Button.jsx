@@ -1,5 +1,4 @@
 import classNames from "classnames"
-import React from 'react'
 import './buttonStyles.css'
 
 const Button = (props) => {

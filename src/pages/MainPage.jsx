@@ -16,8 +16,8 @@ const MainPage = () => {
           buttonContent={<Link to='/about'>Jump in</Link>} 
           buttonVariant={'dark'} 
           content={<ImageLeftText
-          imageSource={'https://i.ibb.co/KxyBwGY/flask.png'}
-          imageAlt={'Placeholder'} 
+          imageSource={null}
+          imageAlt={null} 
           titleMain={'Nice to meet you'} 
           description={mainPageDescriptions.about} 
           titleVariant={'l'} 

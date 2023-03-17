@@ -1,0 +1,34 @@
+@import '../../../assets/mainStyles.css';
+
+.projectPetriDish {
+background: rgba(225, 225, 225, 0.09);
+border-radius: 50%;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(3.9px);
+-webkit-backdrop-filter: blur(3.9px);
+border: 1px solid rgba(225, 225, 225, 0.32);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+--petriSize: 55vh;
+height: var(--petriSize);
+width: var(--petriSize);
+}
+
+.projectPetriInside {
+height: calc(var(--petriSize) * 0.95 );
+width: calc(var(--petriSize) * 0.95 );
+border-radius: 50%;
+border: 2px solid rgba(225, 225, 225, 0.4);
+box-shadow: inset 0 4px 45px var(--green-light-transparent);
+}
+
+.projectPetriInside img {
+    border-radius: 50%;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    z-index: -10;
+    filter: brightness(.8);
+}
