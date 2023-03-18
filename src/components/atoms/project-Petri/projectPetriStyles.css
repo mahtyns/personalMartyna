@@ -33,3 +33,7 @@ box-shadow: inset 0 4px 45px var(--green-light-transparent);
     filter: brightness(1.1);
     opacity: .5;
 }
+
+.arrowsContainer {
+    cursor: pointer;
+}

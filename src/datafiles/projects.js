@@ -106,7 +106,7 @@ export const projectsAbout = [{
     ]
 },
 {
-    project_name: 'WalkingBooks',
+    project_name: 'WalkingBooks Page',
     project_symbol: 'Wb',
     project_year: 2023,
     project_subtitle: 'React SPA for exchanging books',
@@ -117,10 +117,29 @@ export const projectsAbout = [{
     project_status: 'WIP',
     project_link: 'https://github.com/mahtyns/bookApp',
     project_link_deployed: 'https://walkingbooks.netlify.app',
-    project_imagesrc: 'https://i.ibb.co/N9KWtDW/kitty.jpg',
+    project_imagesrc: 'https://i.ibb.co/1fcT98N/walkingobooks-petri1.jpg',
     project_tasks: [
         'Broaden React knowledge',
         'Use React Hooks for API Connections',
+        
+    ] 
+},
+{
+    project_name: 'Makeup Revolution',
+    project_symbol: 'Mr',
+    project_year: 2021,
+    project_subtitle: 'MakeUp Revolution ES Redesign',
+    project_description: '',
+    project_type: 'designUI',
+    project_stack: ['Figma', 'Photoshop'],
+    project_category: 'Design',
+    project_status: 'Finished',
+    project_link: 'https://www.behance.net/gallery/127173329/Make-Up-Revolution-ES-Page-Redesign',
+    project_imagesrc: 'https://i.ibb.co/N9KWtDW/kitty.jpg',
+    project_tasks: [
+        'Re-design existing page to make it more readable',
+        'Highlight important products and categories',
+        'Organize colours, sections and categories',
         
     ] 
 },
@@ -129,9 +148,24 @@ export const projectsAbout = [{
 
 export const projectsPetri= [
     {
-        project_name: '',
-        project_src: '',
-        project_link: '',
-        
+        id: '0',
+        project_name: 'MyShop Ecommerce',
+        project_src: 'https://i.ibb.co/VwGtVZJ/myshop-petri.jpg',
+        project_link: 'https://mahtyns.github.io/products',
+
+    },
+    {
+        id: '1',
+        project_name: 'WineLovers Store',
+        project_src: 'https://i.ibb.co/T8fWqQ1/image-2021-08-09-195430.png',
+        project_link: 'https://mahtyns.github.io/WineloversShop/',
+
+    },
+    {
+        id: '2',
+        project_name: 'WalkingBooks App',
+        project_src: 'https://i.ibb.co/1fcT98N/walkingobooks-petri1.jpg',
+        project_link: 'https://walkingbooks.netlify.app',
+
     }
 ]
