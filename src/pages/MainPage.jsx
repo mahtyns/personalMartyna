@@ -5,6 +5,7 @@ import MainPageContact from '../components/layouts/mainPageContactSect/MainPageC
 import ImageLeftText from '../components/molecules/image-text-combinations/ImageLeftText';
 import mainPageDescriptions from '../datafiles/descriptions';
 import { Link } from 'react-router-dom'
+import ProjectPetriCarusel from '../components/organism/projectPetriCarusel/ProjectPetriCarusel';
 
 
 const MainPage = () => {
@@ -22,7 +23,11 @@ const MainPage = () => {
           description={mainPageDescriptions.about} 
           titleVariant={'l'} 
           descrVariant={'l'}/>}/>
-      <MainPageSection sectionTitle={"Discover my projects"} buttonContent={<Link to="/projects">More projects</Link>} buttonVariant={'dark'}/>
+      <MainPageSection 
+      sectionTitle={"Discover my projects"} 
+      content={<ProjectPetriCarusel />}
+      buttonContent={<Link to="/projects">More projects</Link>} 
+      buttonVariant={'dark'}/>
       <MainPageContact />
     </>
   )
