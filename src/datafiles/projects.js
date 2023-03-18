@@ -125,4 +125,13 @@ export const projectsAbout = [{
     ] 
 },
 
+];
+
+export const projectsPetri= [
+    {
+        project_name: '',
+        project_src: '',
+        project_link: '',
+        
+    }
 ]

@@ -198,13 +198,26 @@
 
 @media screen and (max-width: 802px) {
     .landingTitle {
-        font-size: 2.5rem;
+        font-size: 3em;
+        letter-spacing: 10px;
+        white-space: normal;
+        text-align: center;
+        line-height: 1.1em;
     }
 }
 
 @media screen and (max-width: 576px) {
     .landingTitle {
-        font-size: 2rem;
+        font-size: 3.4rem;
+        letter-spacing: 5px;
+        line-height: 1em;
+}
+}
+@media screen and (max-width: 490px) {
+    .landingTitle {
+        font-size: 3em;
+        letter-spacing: 2.5px;
+        
 }
 }
 

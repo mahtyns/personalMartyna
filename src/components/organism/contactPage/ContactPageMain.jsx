@@ -6,7 +6,7 @@ import './contactPageMainStyles.css'
 
 const ContactPageMain = () => {
   return (
-    <div className='contactPageContainer'>
+    <div className='sectionContainer contactPageContainer'>
           <PageTitle headerContent={"Looking for me?"} subheaderContent={"My contact info"}/>
           <TextCentered content={contactData[0]} variant={'s'}></TextCentered>
     </div>
