@@ -1,11 +1,16 @@
+import classNames from 'classnames';
 import React from 'react'
 import Button from '../../atoms/button/Button';
 import SectionHeader from '../../atoms/text-elements/SectionHeader';
-import './mainPageSectionStyles.css';
 
 const MainPageSection = (props) => {
+
+  const sectionStyles = classNames('sectionContainer', {
+    'extended': props.isExtended === true,
+  })
+
   return (
-    <div className='sectionContainer'>
+    <div className={sectionStyles}>
         <div className='sectionWrapper'>
             <SectionHeader sectionTitle={props.sectionTitle}/>
             <div className='sectionContent'>

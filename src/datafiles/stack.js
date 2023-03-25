@@ -16,7 +16,7 @@ export const stackToolsFE = [
     },
     {
         tool_Name: 'React Query',
-        tool_Img: 'https://react-query-v3.tanstack.com/_next/static/images/emblem-light-628080660fddb35787ff6c77e97ca43e.svg'
+        tool_Img: 'https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png'
     },
     {
         tool_Name: 'JavaScript',
@@ -37,6 +37,10 @@ export const stackToolsFE = [
     {
         tool_Name: 'Storybook',
         tool_Img: 'https://static-00.iconduck.com/assets.00/storybook-icon-icon-412x512-341bo8r1.png'
+    },
+    {
+        tool_Name: 'Tailwind',
+        tool_Img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png'
     },
 ];
 

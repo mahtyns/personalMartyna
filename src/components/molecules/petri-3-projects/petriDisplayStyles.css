@@ -3,7 +3,7 @@
     flex-direction: row;
     position: absolute;
     left: 50%;
-    translate: -50% 15%;
+    translate: -50% 9%;
     transform: scale(1.1);
 }
 
@@ -21,7 +21,7 @@
     width: 3em;
     height: 12em;
     border-radius: 1em;
-    box-shadow: 0 0px 8px rgba(255,255,255,0.35);
+    box-shadow: 0 0px 8px rgba(255, 255, 255, 0.35);
     margin: 0 3em;
     display: flex;
     align-items: center;
@@ -41,4 +41,10 @@
 
 .arrowsContainer.back {
     transform: rotate(180deg)
+}
+
+.petriDisplay {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em
 }

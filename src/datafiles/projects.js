@@ -149,9 +149,10 @@ export const projectsAbout = [{
 export const projectsPetri= [
     {
         id: '0',
-        project_name: 'MyShop Ecommerce',
+        project_name: '_Cosmetic E+commerce',
         project_src: 'https://i.ibb.co/VwGtVZJ/myshop-petri.jpg',
         project_link: 'https://mahtyns.github.io/products',
+        year: '2021-2022_'
 
     },
     {
@@ -159,13 +160,23 @@ export const projectsPetri= [
         project_name: 'WineLovers Store',
         project_src: 'https://i.ibb.co/T8fWqQ1/image-2021-08-09-195430.png',
         project_link: 'https://mahtyns.github.io/WineloversShop/',
+        year: '__2020-'
 
     },
     {
         id: '2',
-        project_name: 'WalkingBooks App',
+        project_name: 'WalkingBo_ks App',
         project_src: 'https://i.ibb.co/1fcT98N/walkingobooks-petri1.jpg',
         project_link: 'https://walkingbooks.netlify.app',
+        year: '2023-xx'
+
+    },
+    {
+        id: '3',
+        project_name: 'x Volare Fitness Page',
+        project_src: 'https://i.ibb.co/C7VMKnm/volare1.jpg',
+        project_link: 'https://github.com/mahtyns/aerialSchool',
+        year: 'x.2023'
 
     }
 ]

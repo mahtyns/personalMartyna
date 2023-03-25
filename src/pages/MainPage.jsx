@@ -27,7 +27,8 @@ const MainPage = () => {
       sectionTitle={"Discover my projects"} 
       content={<ProjectPetriCarusel />}
       buttonContent={<Link to="/projects">More projects</Link>} 
-      buttonVariant={'dark'}/>
+      buttonVariant={'dark'}
+      isExtended={true}/>
       <MainPageContact />
     </>
   )

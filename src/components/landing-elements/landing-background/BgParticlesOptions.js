@@ -5,7 +5,7 @@ const options = {
     fpsLimit: 60,
     particles: {
       number: {
-        value: 50,
+        value: 80,
         density: {
           enable: true,
           value_area: 500 
@@ -50,7 +50,7 @@ const options = {
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 3,
       direction: "none", //Move them off the canvas, either "none", "top", "right", "bottom", "left", "top-right", "bottom-right" et cetera...
       random: true,
       straight: false, //Whether they'll shift left and right while moving.
@@ -90,7 +90,7 @@ const options = {
       },
       bubble: {
         distance: 450,
-        size: 45,
+        size: 65,
         duration: 3,
         opacity: .7,
         speed: 5
