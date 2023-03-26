@@ -44,3 +44,8 @@
     min-height: 65vh;
 
 }
+
+.projects .sectionWrapper {
+    min-height: 140vh;
+    justify-content: space-around;
+}

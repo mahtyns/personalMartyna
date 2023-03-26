@@ -28,7 +28,7 @@ const MainPage = () => {
           content={<ProjectPetriCarusel />}
           buttonContent={<Link to="/projects">More projects</Link>} 
           buttonVariant={'dark'}
-          isExtended={true}/>
+          projects={true}/>
       <MainPageContact />
     </>
   )

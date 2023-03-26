@@ -7,6 +7,7 @@ const MainPageSection = (props) => {
 
   const sectionStyles = classNames('sectionContainer', {
     'extended': props.isExtended === true,
+    'projects': props.projects === true
   })
 
   return (
