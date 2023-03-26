@@ -1,11 +1,10 @@
 :root {
     --main-color: #efefef;
     --background: #030e10;
-    --peach:#f87459;
+    --peach: #f87459;
     --purple-dark: #672c95;
     --purple-light: #cfaeea;
     --blue-light: #1275da;
-    --yellow: #f2e658;
     --green-light: #a9dec5;
     --green-light-transparent: #a9dec578;
     --cyan: #2afee8;
@@ -17,7 +16,7 @@
 
 .sectionContainer {
     margin-top: 3rem;
-    box-shadow: 0 2px 4px rgba(255,255,255,0.15);
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.15);
     margin-bottom: 3em;
     box-sizing: border-box;
     width: 100%;
@@ -45,4 +44,3 @@
     min-height: 65vh;
 
 }
-

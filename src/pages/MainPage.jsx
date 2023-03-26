@@ -13,7 +13,7 @@ const MainPage = () => {
     <>
       <LandingBackgroundTop />
       <MainPageSection 
-      sectionTitle={"Hello, traveller"} 
+          sectionTitle={"Hello, traveller"} 
           buttonContent={<Link to='/about'>Jump in</Link>} 
           buttonVariant={'dark'} 
           content={<ImageLeftText
@@ -24,11 +24,11 @@ const MainPage = () => {
           titleVariant={'l'} 
           descrVariant={'l'}/>}/>
       <MainPageSection 
-      sectionTitle={"Discover my projects"} 
-      content={<ProjectPetriCarusel />}
-      buttonContent={<Link to="/projects">More projects</Link>} 
-      buttonVariant={'dark'}
-      isExtended={true}/>
+          sectionTitle={"Discover my projects"} 
+          content={<ProjectPetriCarusel />}
+          buttonContent={<Link to="/projects">More projects</Link>} 
+          buttonVariant={'dark'}
+          isExtended={true}/>
       <MainPageContact />
     </>
   )

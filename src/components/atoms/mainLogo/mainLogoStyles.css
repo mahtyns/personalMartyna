@@ -1,4 +1,8 @@
-.mainLogoContainer img {
-    padding: 0.2em;
-    max-width: 15%;
+@import '../../../assets/mainStyles.css';
+
+.mainLogoContainer {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2em;
+    color: var(--purple-dark);
+    text-shadow: 3px 3px 0 var(--grey-dark);
 }
