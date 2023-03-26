@@ -1,11 +1,16 @@
 .toolsWrapper {
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 90%;
     align-items: center;
     justify-content: center;
     gap: 2em;
     row-gap: 3em;
     margin: 0 auto;
     flex-wrap: wrap;
+}
+
+.toolsContainer {
+    width: 65%;
+    margin: 3em auto;
 }

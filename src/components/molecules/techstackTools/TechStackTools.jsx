@@ -6,12 +6,12 @@ import './toolsStyles.css'
 
 const TechStackTools = (props) => {
   return (
-    <>
+    <div className='toolsContainer'>
         <TextCentered variant={'s'} content={ props.toolsCategory } />
         <div className="toolsWrapper">
           {props.toolsList.map(tool => <StackTool tool={tool} />)}
         </div>
-    </>
+    </div>
   )
 }
 

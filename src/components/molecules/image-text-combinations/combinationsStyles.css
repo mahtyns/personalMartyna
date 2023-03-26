@@ -41,4 +41,11 @@
 
 .textContents {
     max-width: 50%;
+    margin: 0 auto;
+}
+
+.onlyTextContainer {
+    width: 100%;
+    margin: 4em auto;
+
 }
