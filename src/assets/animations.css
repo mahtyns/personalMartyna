@@ -13,3 +13,117 @@
       inset 50px 0 300px var(--purple-dark);
   }
 }
+
+@keyframes textbreak-left {
+  0% {
+    transform: none;
+  }
+
+  19% {
+    transform: none;
+  }
+
+  20% {
+    transform: translate(-0.1em, 0);
+  }
+
+  21% {
+    transform: none;
+  }
+}
+
+@keyframes textbreak-right {
+  0% {
+    transform: none;
+  }
+
+  67% {
+    transform: none;
+  }
+
+  68% {
+    transform: translate(0.125em, 0);
+  }
+
+  70% {
+    transform: none;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow:
+      0.05em 0.025em 0 rgba(var(--peach), 0.5),
+      -0.05em -0.025em 0 rgba(var(--blue-light), 0.5),
+      0.025em -0.05em 0 rgba(var(--yellow), 0.5);
+  }
+
+  19% {
+    text-shadow:
+      0.05em 0.025em 0 rgba(var(--peach), 0.5),
+      -0.05em -0.025em 0 rgba(var(--blue-light), 0.5),
+      0.025em -0.05em 0 rgba(var(--yellow), 0.5);
+  }
+
+  20% {
+    text-shadow:
+      0.05em 0.025em 0 rgba(var(--peach), 0.5),
+      -0.05em -0.025em 0 rgba(var(--blue-light), 0.5),
+      0.025em -0.05em 0 rgba(var(--yellow), 0.5);
+  }
+
+  49% {
+    text-shadow:
+      0.05em 0.025em 0 rgba(var(--peach), 0.5),
+      -0.05em -0.025em 0 rgba(var(--blue-light), 0.5),
+      0.025em -0.05em 0 rgba(var(--yellow), 0.5);
+  }
+
+  50% {
+    text-shadow:
+      0.05em 0.025em 0 rgba(var(--peach), 0.5),
+      -0.05em -0.025em 0 rgba(var(--blue-light), 0.5),
+      0.05em -0.015em 0 rgba(var(--yellow), 0.5);
+  }
+
+  69% {
+    text-shadow:
+      0.05em 0.025em 0 rgba(var(--peach), 0.5),
+      -0.05em -0.025em 0 rgba(var(--blue-light), 0.5),
+      0.05em -0.015em 0 rgba(var(--yellow), 0.5);
+  }
+
+  70% {
+    text-shadow:
+      0.05em 0.025em 0 rgba(var(--peach), 0.5),
+      -0.1em -0.05em 0 rgba(var(--blue-light), 0.5),
+      0.025em -0.05em 0 rgba(var(--yellow), 0.5);
+  }
+
+  99% {
+    text-shadow:
+      0.05em 0.025em 0 rgba(var(--peach), 0.5),
+      -0.1em -0.05em 0 rgba(var(--blue-light), 0.5),
+      0.025em -0.05em 0 rgba(var(--yellow), 0.5);
+  }
+
+  100% {
+    text-shadow:
+      0.05em 0.025em 0 rgba(var(--peach), 0.5),
+      -0.05em -0.025em 0 rgba(var(--blue-light), 0.5),
+      0.025em -0.05em 0 rgba(var(--yellow), 0.5);
+  }
+
+}
+
+@keyframes textstretch {
+  5% {
+    transform: scaleX(3);
+    opacity: .1;
+  }
+
+  15% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}

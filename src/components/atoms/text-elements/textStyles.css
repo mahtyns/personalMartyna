@@ -1,4 +1,5 @@
 @import '../../../assets/mainStyles.css';
+@import '../../../assets/animations.css';
 
 .headerContainer {
     width: 100%;
@@ -18,7 +19,6 @@
 }
 
 
-
 .subheaderContainer {
     width: 100%;
     display: flex;
@@ -32,17 +32,15 @@
     font-size: 3vh;
     font-family: var(--main-font);
     color: var(--grey-light);
-        letter-spacing: 2px;
+    letter-spacing: 2px;
 
 }
-
 
 .symbolContent {
     font-size: 3rem;
     font-family: var(--font-special);
     letter-spacing: 2px;
 }
-
 
 .projectNameText {
     font-style: var(--font-special);
@@ -63,7 +61,6 @@
 .projectNameText.l {
     font-size: 2rem;
 }
-
 
 .projectYearText {
     font-size: 1rem;
@@ -86,7 +83,6 @@
 
 }
 
-
 .sectionHeader {
     font-style: var(--font-special);
     color: var(--main-color);
@@ -95,6 +91,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 
 .sectionSubeader {
     font-style: var(--font-special);
@@ -112,7 +109,6 @@
     color: var(--main-color);
     text-align: left;
 }
-
 
 .descriptionContainer {
     padding: 1rem 2rem;
@@ -140,7 +136,7 @@
 .linkContainer {
     color: var(--cyan);
     font-size: 1.2rem;
-    padding: .5rem 2rem;
+    padding: 0.5rem 2rem;
     letter-spacing: 2px;
 }
 
@@ -193,16 +189,16 @@
     text-transform: uppercase;
     letter-spacing: 1.2px;
     text-align: center;
-    margin: .7em 0;
+    margin: 0.7em 0;
 }
 
 .projectTask {
     display: flex;
     flex-direction: row;
     font-size: 1.5em;
-    margin: .5em 0;
+    margin: 0.5em 0;
     padding: 0 2em;
-    align-items: center
+    align-items: center;
 }
 
 .projectTask img {
@@ -211,24 +207,25 @@
     margin-right: 0.6em;
 }
 
-
 @media screen and (max-width: 490px) {
-    
-    .sectionHeader{
+
+    .sectionHeader {
         font-size: 2em;
     }
 
 }
+
 @media screen and (max-width: 580px) {
-    
-    .sectionHeader{
+
+    .sectionHeader {
         font-size: 2.5em;
     }
 
 }
+
 @media screen and (max-width: 800px) {
-    
-    .sectionHeader{
+
+    .sectionHeader {
         font-size: 2em;
     }
 

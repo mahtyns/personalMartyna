@@ -1,4 +1,5 @@
 @import '../../../assets/mainStyles.css';
+@import '../../../assets/animations.css';
 
 .projectPetriDish {
     background: rgba(225, 225, 225, 0.09);
@@ -14,6 +15,11 @@
     --petriSize: 50vh;
     height: var(--petriSize);
     width: var(--petriSize);
+    transition: ease-in-out 6s all;
+}
+
+.petriDisplay .projectPetriDish:hover {
+    animation: pulsate 7s linear infinite;
 }
 
 .projectPetriInside {
@@ -47,8 +53,15 @@
 
 .projectPetriLabeLContainer h1 {
     font-size: 1.75em;
-
+    color: var(--cyan);
+    text-shadow: 1px 1px 5px var(--green-light-transparent);
 }
+
+.projectPetriLabeLContainer h1:hover {
+    animation: textbreak-right 1000ms infinite,
+        textbreak-left 1000ms infinite;
+}
+
 
 .projectPetriLabeLContainer h3 {
     font-size: .9em;

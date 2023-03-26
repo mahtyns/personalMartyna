@@ -58,7 +58,7 @@ const options = {
       bounce: false,
       attract: {
         //Make them start to clump together while moving.
-        enable: true,
+        enable: false,
         rotateX: 600,
         rotateY: 1200
       }
