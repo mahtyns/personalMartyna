@@ -1,0 +1,12 @@
+.year-close {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.year-close span {
+    font-size: 1.2em;
+    cursor: pointer;
+}

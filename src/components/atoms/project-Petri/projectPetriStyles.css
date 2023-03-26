@@ -19,7 +19,7 @@
 }
 
 .petriDisplay .projectPetriDish:hover {
-    animation: pulsate 7s linear infinite;
+    animation: pulsate-mild 7s linear infinite;
 }
 
 .projectPetriInside {

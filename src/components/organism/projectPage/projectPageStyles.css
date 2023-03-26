@@ -1,4 +1,17 @@
-.projectPageContainer {
-    margin: 3vh auto;
-    width: 100%;
+@import '../../../assets/mainStyles.css';
+@import '../../../assets/animations.css';
+
+.panelClosed {
+    width: 90%;
+    height: 5vh;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px var(--green-light);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    line-height: 5vh;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--green-light);
+    animation: pulsate-mild 25s infinite;
 }

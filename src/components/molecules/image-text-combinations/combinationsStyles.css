@@ -16,7 +16,7 @@
     width: 70%;
 }
 
-.imgTextWrapper img  {
+.imgTextWrapper img {
     max-width: 42%;
     height: auto;
     object-fit: cover;
@@ -24,7 +24,21 @@
     animation: pulsate 12s linear infinite;
 }
 
+.imgSquareWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.imgSquareWrapper img {
+    max-width: 30em;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15%;
+}
+
 .textContents {
     max-width: 50%;
 }
-

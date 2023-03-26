@@ -12,7 +12,7 @@ const LandingBackground = () => {
       <div className='landingContainer'>
         <LandingTitle />
       </div>
-      <div className='callToAction'>
+      <div className='callToAction' onClick={()=> window.location.replace('/#Projects')}>
         <Button variant={'dark'} content={'EXPLORE'}/>
       </div>
     </div>

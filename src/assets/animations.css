@@ -14,6 +14,22 @@
   }
 }
 
+@keyframes pulsate-mild {
+  50% {
+    box-shadow:
+      0 0 5px var(--main-color),
+      2px 0 15px var(--purple-light),
+      -2px 0 15px var(--purple-dark),
+      inset 0 0 20px var(--main-color),
+      inset -20px 0 10px var(--purple-light),
+      inset 10px 0 10px var(--purple-dark),
+      inset -10px 0 10px var(--purple-light),
+      inset 10px 0 10px var(--purple-dark);
+  }
+}
+
+
+
 @keyframes textbreak-left {
   0% {
     transform: none;

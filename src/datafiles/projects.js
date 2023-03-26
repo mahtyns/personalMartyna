@@ -169,7 +169,6 @@ export const projectsPetri = [
         project_year: '2023-xx',
         project_short: 'Book Library App with a possibility to sell & exchange books'
 
-
     }, {
         id: '3',
         project_name: 'x Volare Fitness Page',
@@ -177,5 +176,13 @@ export const projectsPetri = [
         project_link: 'https://github.com/mahtyns/aerialSchool',
         project_year: 'x.2023',
         project_short: 'Aerial school page with TypeScript & Tailwind'
+
+    }, {
+        id: '4',
+        project_name: 'PamApp_Challenge',
+        project_src: 'https://i.ibb.co/nLHj6vf/pamappchallenge.jpg',
+        project_link: 'https://www.figma.com/file/6os6AexKkKm7BGhpOW7iWR/Pam-App-challenge?node-id=0-1',
+        project_year: '2021 - - ',
+        project_short: 'UX/UI Reply Challenge - app redesign'
     }
 ]

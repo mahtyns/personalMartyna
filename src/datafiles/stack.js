@@ -42,6 +42,10 @@ export const stackToolsFE = [
         tool_Name: 'Tailwind',
         tool_Img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png'
     },
+    {
+        tool_Name: 'Sass',
+        tool_Img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png'
+    },
 ];
 
 export const designTools = [
