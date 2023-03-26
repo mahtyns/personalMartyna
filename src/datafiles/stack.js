@@ -46,6 +46,10 @@ export const stackToolsFE = [
         tool_Name: 'Sass',
         tool_Img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png'
     },
+    {
+        tool_Name: 'Vite',
+        tool_Img: 'https://vitejs.dev/logo-with-shadow.png'
+    },
 ];
 
 export const designTools = [
