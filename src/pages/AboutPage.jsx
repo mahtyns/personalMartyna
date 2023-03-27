@@ -4,7 +4,6 @@ import ImageLeftText from '../components/molecules/image-text-combinations/Image
 import { aboutMeDescr } from '../datafiles/aboutMe';
 import TechStackSection from '../components/layouts/techstack/TechStackSection';
 import TextAll from '../components/molecules/image-text-combinations/TextAll';
-import SectionTitles from '../components/molecules/header-subheader/SectionTitles';
 import Button from '../components/atoms/button/Button';
 
 const AboutPage = () => {
