@@ -8,6 +8,6 @@ export const aboutMeDescr = [
         description: 'I graduated from Universidad de Alcalá de Henares in Spain in 2020 and have been learning Front End Dev Technology since around 2021. Discover the technology I use:'
     },
     {
-        description: 'I speak Polish, English and Spanish. Feel free to send me an email at m.smolarek19@gmail.com and ask me anything you want!'
+        description: 'I speak Polish, English and Spanish. Feel free to send me an email and ask me anything you want!'
     },
 ]

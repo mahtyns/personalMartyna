@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link to='/'><NavigationLink navigationLink={"The Lab"} /></Link>
             <Link to='/projects'><NavigationLink navigationLink={"Experiments"} /></Link>
             <Link to='/about'><NavigationLink navigationLink={"The Scientist"} /></Link>
-            <Link to='/contact'><NavigationLink navigationLink={"Contact"} /></Link>
+            {/* <Link to='/contact'><NavigationLink navigationLink={"Contact"} /></Link> */}
         </div>
         </div>
     </nav>

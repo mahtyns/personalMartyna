@@ -4,6 +4,8 @@ import ImageLeftText from '../components/molecules/image-text-combinations/Image
 import { aboutMeDescr } from '../datafiles/aboutMe';
 import TechStackSection from '../components/layouts/techstack/TechStackSection';
 import TextAll from '../components/molecules/image-text-combinations/TextAll';
+import SectionTitles from '../components/molecules/header-subheader/SectionTitles';
+import Button from '../components/atoms/button/Button';
 
 const AboutPage = () => {
   return (
@@ -18,7 +20,7 @@ const AboutPage = () => {
           titleVariant={'l'}
           descrVariant={'l'}/> }/>
       </section>
-      <section id='Eductation'>
+      <section id='Education'>
           <TextAll content={aboutMeDescr[1].description} />
       </section>
       <section id='TechStack'>
@@ -26,7 +28,13 @@ const AboutPage = () => {
       </section>
       <section id='Languages'>
         <TextAll content={aboutMeDescr[2].description} />
+       
       </section>
+      <div className='centeredContainer'>
+        <a href='mailto:m.smolarek19@gmail.com'>
+          <Button variant={'dark'} content={'Contact me'} />
+        </a>
+      </div>
     </>
 
   )
