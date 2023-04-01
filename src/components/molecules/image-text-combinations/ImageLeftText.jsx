@@ -1,4 +1,3 @@
-import React from 'react'
 import Descriptions from '../../atoms/text-elements/Descriptions'
 import TitleMain from '../../atoms/text-elements/TitleMain'
 import './combinationsStyles.css'

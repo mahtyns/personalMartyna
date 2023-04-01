@@ -61,15 +61,18 @@ a {
     position: relative
 }
 
-#aboutParticles {
-    width: 50vh;
-    height: 50vh;
-}
 
 @media screen and (max-width: 1040px) {
 
     html,
     body {
         overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #tsparticles {
+        height: 70vh;
+        border-bottom: var(--grey-dark) solid 1px;
     }
 }

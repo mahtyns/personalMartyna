@@ -9,12 +9,11 @@ Deployed on Netlify. See it live here - [Mahtyns Personal Site](https://mahtyns-
 ### WIP (Working currently)
  - Main Page 
  - Project Gallery & Interactions
- - Contact Page
+ - Mobile version
  ### Done
  - Project Descriptions and pictures ✅
  - Main Page project display ✅
-### To-Do's
-  - Mobile 
+
 
 ## Dependencies:
  - React Router - navigating between pages - [More info]("https://reactrouter.com")

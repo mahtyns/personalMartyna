@@ -49,3 +49,11 @@
     margin: 4em auto;
 
 }
+
+@media screen and (max-width: 860px) {
+
+    .imgTextWrapper,
+    .imgSquareWrapper {
+        flex-direction: column;
+    }
+}

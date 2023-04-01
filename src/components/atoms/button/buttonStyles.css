@@ -36,3 +36,10 @@
 a {
     color: var(--main-color);
 }
+
+@media screen and (max-width: 720px) {
+    .buttonGeneral {
+        font-size: 1em;
+        padding: 1em 5em
+    }
+}
