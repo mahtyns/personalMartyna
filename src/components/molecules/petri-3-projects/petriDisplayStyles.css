@@ -49,3 +49,19 @@
     flex-direction: column;
     gap: 2.5em
 }
+
+@media screen and (max-width: 1150px) {
+    .arrowsContainer {
+        display: none;
+    }
+
+    .petrisBehind {
+        /* flex-direction: column;
+        gap: 6em */
+        display: none;
+    }
+
+    .petrisContainer {
+        flex-direction: column;
+    }
+}

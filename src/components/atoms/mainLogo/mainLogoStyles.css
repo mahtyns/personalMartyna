@@ -11,3 +11,9 @@
     color: var(--purple-dark);
     text-shadow: 3px 3px 0 var(--grey-dark);
 }
+
+@media screen and (max-width: 1040px) {
+    .mainLogoContainer {
+        font-size: 1.5em;
+    }
+}
