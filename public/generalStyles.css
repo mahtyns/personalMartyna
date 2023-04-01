@@ -1,7 +1,7 @@
 :root {
     --main-color: #efefef;
     --background: #030e10;
-    --peach:#f87459;
+    --peach: #f87459;
     --purple-dark: #672c95;
     --purple-light: #cfaeea;
     --blue-light: #1275da;
@@ -19,12 +19,21 @@
     box-sizing: border-box
 }
 
+html {
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-color: var(--background);
     font-family: var(--main-font);
     min-height: 100vh;
     color: var(--main-color);
     background-image: url('https://i.ibb.co/2sr2Ykg/nosebg.png');
+    margin: 0px;
+    width: 100%;
+
 }
 
 a {
@@ -37,7 +46,7 @@ a {
     text-align: center;
     font-size: 1.3rem;
     text-transform: uppercase;
-    padding: 1rem 
+    padding: 1rem
 }
 
 #tsparticles {
@@ -55,4 +64,12 @@ a {
 #aboutParticles {
     width: 50vh;
     height: 50vh;
+}
+
+@media screen and (max-width: 1040px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
 }

@@ -17,3 +17,9 @@
         font-size: 1.5em;
     }
 }
+
+@media screen and (max-width: 1040px) {
+    .mainLogoContainer {
+        font-size: 1.1em;
+    }
+}

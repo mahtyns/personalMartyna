@@ -2,6 +2,7 @@
 
 .navigationContainer {
     padding: 1em 2.3em;
+    gap: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,8 +26,8 @@
 }
 
 .burgerIcon {
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     border: 1px solid var(--purple-dark);
     display: flex;
     justify-content: center;
@@ -41,8 +42,8 @@
 }
 
 .burgerIcon img {
-    width: 2em;
-    height: 2em;
+    width: 1.7em;
+    height: 1.7em;
     filter: invert(.6);
 }
 
