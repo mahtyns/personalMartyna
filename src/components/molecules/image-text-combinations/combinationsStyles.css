@@ -56,4 +56,8 @@
     .imgSquareWrapper {
         flex-direction: column;
     }
+
+    .imgSquareWrapper img {
+        max-width: 18em;
+    }
 }

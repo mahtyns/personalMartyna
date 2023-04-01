@@ -47,21 +47,34 @@
 .petriDisplay {
     display: flex;
     flex-direction: column;
+
     gap: 2.5em
 }
 
+.petriMobile {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 1150px) {
-    .arrowsContainer {
-        display: none;
-    }
+
 
     .petrisBehind {
-        /* flex-direction: column;
-        gap: 6em */
         display: none;
     }
 
-    .petrisContainer {
-        flex-direction: column;
+    .petriDisplay {
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width: 1150px) {
+    .petriMobile {
+        display: none;
     }
 }

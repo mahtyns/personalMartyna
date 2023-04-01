@@ -62,3 +62,11 @@
     min-height: 140vh;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 480px) {
+    .sectionContainer {
+        margin-top: 2em;
+        box-shadow: none;
+        border-bottom: var(--grey-dark) 1px solid;
+    }
+}

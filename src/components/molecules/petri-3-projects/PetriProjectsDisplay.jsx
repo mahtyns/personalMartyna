@@ -4,6 +4,7 @@ import ProjectPetriLabel from "../../atoms/project-Petri/ProjectPetriLabel";
 
 const PetriProjectsDisplay = (props) => {
     return (
+        <>
         <div className="petrisBehind">
             <ProjectPetri
                 projectPetriAlt="Previous Project"
@@ -20,6 +21,17 @@ const PetriProjectsDisplay = (props) => {
                 </div>
             </div>
         </div>
+
+        {/* Mobile display  */}
+        <div className="petriMobile">
+                <div className="petriDisplay">
+                    <ProjectPetri
+                        projectPetriAlt="Current Project"
+                        projectImageSrc={props.projectsPetri[props.indexArray[1]].project_src} />
+                    <ProjectPetriLabel content={props.projectsPetri[props.indexArray[1]]} />
+                </div>
+        </div>
+        </>
     );
 };
 

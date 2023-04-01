@@ -15,3 +15,17 @@
     max-width: 100%;
     margin-top: -7em;
 }
+
+@media screen and (max-width: 1150px) {
+    .arrowsDisplayContainer {
+        transform: rotate(90deg);
+    }
+
+    .caruselContainer {
+        flex-direction: column;
+        height: 1vh;
+        gap: 0.2em;
+        margin-top: -12em
+    }
+
+}
