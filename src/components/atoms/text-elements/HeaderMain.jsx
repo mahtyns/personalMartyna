@@ -4,9 +4,9 @@ import './textStyles.css'
 const HeaderMain = ( props) => {
   return (
     <div className='headerContainer'>
-        <div className='headerContent'>
+        <h1 className='headerContent'>
             {props.content}
-        </div>
+        </h1>
     </div>
   )
 }
